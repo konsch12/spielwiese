@@ -1,0 +1,48 @@
+---
+title: "fertility"
+---
+
+# Session 1 
+
+## Introduction 
+
+### Definitions 
+
+life expectancy = number of years to live in a fictive cohort
+
+TFR = number of children per woman in a fictive cohort 
+
+Lexis diagramm 
+
+# Session 2 
+
+## Fertility transition across world regions 
+
+### Period fertility measures 
+
+Crude birth rate: number of **births per thousand** persons in a given population within a given year
+
+$$CBR = \frac{\text{births in year y}}{\text{population in year y}} * 1000 = \frac{B}{P} * 1000$$
+
+General fertility rate: number of **births per thousand** women of ‘reproductive age’ in a given population, within a given year
+
+$$ GFR = \frac{\text{births in year y}}{\text{women age 15-49 in year y}} * 1000 = \frac{B}{\sum_{x = 15}^{49}{W_x}} * 1000$$
+
+Age-specific fertility rates : number of **births per thousand women** of a given age $x$, in a given population in a given year
+
+$$ ASFR_x = \frac{\text{births at age x}}{\text{women of age x at risk}} * 1000 $$
+
+Using age groups of size $n$, over a period $p$
+
+$$ASFR_{[x, x+n], p} = \frac{B_{[x,x+n], p}}{W_{[x,x+n], p}}* 1000$$
+
+Total fertility rate : fertility level standardized per age, number of **children per woman**, births occurring in the course of one year, standardized for age. Corresponds to one woman who has the average number of children of each age across all her reproductive life.
+
+Single Ages: 
+$$TFR = \sum_{x = 15}^{49}{\frac{ASFR_x}{1000}} = \sum_x{\frac{B_x}{W_x}}$$
+Age Groups of size $n$: 
+$$TFR = \sum_{x = 15, 20, ...}^{49}{\frac{ASFR_{[x, x + n]}*n}{1000}}$$
+# Session 3 
+
+## Proximate determinants of Total de
+
