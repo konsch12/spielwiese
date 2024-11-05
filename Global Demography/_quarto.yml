@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Global Demography"
@@ -11,9 +12,14 @@ website:
     contents:
       - href: index.qmd
         text: Home
+      - href: introduction.qmd
+        text: Introduction
       - href: migration lecture.qmd
         text: Migration Lecture 
-      - href: basic methods.qmd 
+      - href: basic methods.qmd
+        text: Basic Methods 
+      - href: fertility.qmd
+        text: fertility
 
 format:
   html:
