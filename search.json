@@ -21,6 +21,48 @@
     "text": "Estimating Period PYL\nEstimating PYL under constant exponential growth rate assumption.\n\n\n\n\n\n\nPYL (constant growth)\n\n\n\n\\[\nPYL(0,T) = \\frac{N(T) - N(0)}{r^*}\n\\]\n\n\n\nLimitations of midyear approach\n\nIf N(t) is linear -> good approximation => use for short time intervals\nUnder constant exponential growth rate assumption -> underestimation"
   },
   {
+    "objectID": "basic methods.html#problems-of-crude-rates",
+    "href": "basic methods.html#problems-of-crude-rates",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Problems of Crude Rates",
+    "text": "Problems of Crude Rates\n\nViolate principle of correspondence\n\nloose connection between risk of occurrence and exposure\n\nToo “crude” to compare demographic experiences among populations\n\ndoes not take population structure into account\n=> differences in demographic composition greatly influence principal crude rates\n\n\n\nAge-Specific Rates\n\n\n\n\n\n\nAge-specific death rate\n\n\n\nSingle ages:\n\\[\nASDR_x[0, T] = \\frac{\\# \\text{deaths of people age x years [0, T]}}{PYL_x[0, T]}\n\\]\n\\[\nM_x = \\frac{D_x}{PYL_x}\n\\]\nAge groups of size \\(n\\), \\([x, x + n)\\):\n\\[\nnM_x[0, T] = \\frac{nD_x}{nPYL_x}\n\\]\n\n\n\n\nCrude Death Rate\nCDR is the sum of ASDR weighted by the proportionate age distribution of the population.\n\n\n\n\n\n\nCDR expressed as sum of ASDRs\n\n\n\n\\[\nCDR = \\sum{ASDR_i*c_i}\n\\]\nwhere \\(\\sum{c_i} = 1\\)"
+  },
+  {
+    "objectID": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
+    "href": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Minimizing the confounding effect of age composition",
+    "text": "Minimizing the confounding effect of age composition\n\nAge Specific Rates\n\nensures comparability among populations from within a specific age-group (despite different age-structures)\nhard to summarize or interpret\n\n\n\nAge Standardization\n\nAsses impact of ASDR based on age structure of a standard population\nASDR of a population is weighted by proportionate age distribution of a standard population\n\n\n\n\n\n\n\nASCDR\n\n\n\n\\[\nASCDR^j = \\sum_{i = 1}^{\\infty}{M^j_iC^s_i}\n\\]\n\\(M_s^j\\) = age-specific death rates in population j\n\\(C_i^s\\) = age-specific population weights of the standard population\n\n\n\nWhich population as standard?\n\nOne of the comparing populations\n\nnot recommended, different results for different standards\n\nAverage of the two population compositions\n\n\\(C_i^s = \\frac{C^B_i + C^A_i}{2}\\)\nWhen comparing more than 2 populations:\n\nUse standard close to mean or median of population structures\nUse regional age-structure"
+  },
+  {
+    "objectID": "basic methods.html#indirect-standardization",
+    "href": "basic methods.html#indirect-standardization",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Indirect Standardization",
+    "text": "Indirect Standardization\n\nStandardized Comparative Mortality Ratio\nSummary measure to compare the death rates in two populations whilst accounting for different population distributions\n\ndata on ASDR unavailable/fluctuating\nsmall populations\n\n\n\n\n\n\n\nDefinition\n\n\n\nSMR = the ratio of the actual number of deaths in population \\(A\\) to the expected number based on the age-specific death rates of the standard population\n\n\n\n\n\n\n\n\nSMR\n\n\n\n\\[\nSMR = \\frac{\\sum_i{D_i^A}}{\\sum_i{M^S_iN_i^A}}\n\\]\nIf \\(SMR < 1\\), \\(M_iS > M^A_i\\)."
+  },
+  {
+    "objectID": "basic methods.html#period-vs.-cohort-approach",
+    "href": "basic methods.html#period-vs.-cohort-approach",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Period vs. Cohort Approach",
+    "text": "Period vs. Cohort Approach\n\nPeriod Approach\nAdvantages:\n\nreadily available data\neasy to interpret\n\nDisadvantages:\n\nviolate the principle of correspondence\ndoes not reflect experience of real group of people\n\n\n\nCohort Approach\n\nreal group of people who experience demographic events during a specific time interval, e.g: marriage cohort, school cohort, …\nBirth cohort = real group of people sharing the same birth date\n\nCohort rate: \\(cohort rate = [x, x+n] = \\frac{\\# \\text{events in the cohort [x, x+n]}}{\\text{PYL in the cohirt [x, x+n]}}\\)\n\nProbability\n= chance that some event will occur, not rate at which it occurs\n\\(Probability = \\frac{\\#Occurrences}{\\# \\text{preceeding events or trials}}\\)\n\\(nqx^c = \\frac{\\#\\text{Occurrences in cohort c [x, x+n]}}{\\# \\text{persons in the cohort reaching age. x}}\\)\n\n\n\nThe Identification Problem\nMeasures base on the cohort and period approaches are interlinked: Period = Age + Cohort\n\nHow do we measure age?\n\nExact age\n\nexact number in years, months and days\nrarely used\n\nAge reached during the year\n\nremains constant during the whole calendar year\n\nAge reached last birth day/age in complete years\n\nremains constant until next birthday\n\n\n=> disparity between age reached during year and age last birthday"
+  },
+  {
+    "objectID": "basic methods.html#lexis-diagram",
+    "href": "basic methods.html#lexis-diagram",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Lexis Diagram",
+    "text": "Lexis Diagram\n\nLife Lines\n\neach person in LD has a life line\ndiagonal (45°) line\nstarts at birth, ends at death\n\n\n\nWays of Classifying Events\n\nAge-Period Classification\n\nClassification according to age and calendar time\nAge in completed years\nCorresponds to two different cohorts\nRectangle\n\n\n\nA - exposure/events by those who reached age 3 in the previous year\nB - reach age 3 in the calendar year\n\n\n\nAge-Cohort Classification\n\ngrouped together by age in completed years and within the same birth cohort\nparallelogram, two horizontal lines (ages), two 45° lines (cohort)\ncounting events will stretch over two calendar years\nPeriod = Cohort + age\n\n\n\n\nPeriod-Cohort Classification\n\nevents/exposure occurred in a given calendar year and within a given cohort\nparallelogram, two vertical lines (period), two 45° lines (cohort)\nAge reached = period - cohort\nCohort will reach age x on average halfway through the period\n\n\nSummary:"
+  },
+  {
+    "objectID": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
+    "href": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Person-time at risk in the Lexis Diagram",
+    "text": "Person-time at risk in the Lexis Diagram\n\\(C\\) …. cohort\n\\(x\\) …. age\n\\(t\\) … period\nA-C: \\(PYL^{C}_{[1, 2)} = \\frac{P^C_x + P^C_{x+1}}{2} = P^{t+1}_{[x, x+ 1]}\\)"
+  },
+  {
     "objectID": "basic methods.html#fertility-and-reproduction",
     "href": "basic methods.html#fertility-and-reproduction",
     "title": "Basic Methods of Demographic Analysis",

@@ -156,10 +156,38 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#limitations-of-midyear-approach" id="toc-limitations-of-midyear-approach" class="nav-link" data-scroll-target="#limitations-of-midyear-approach">Limitations of midyear approach</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#session-3" id="toc-session-3" class="nav-link" data-scroll-target="#session-3">Session 3</a></li>
+  <li><a href="#session-3" id="toc-session-3" class="nav-link" data-scroll-target="#session-3">Session 3</a>
+  <ul class="collapse">
+  <li><a href="#problems-of-crude-rates" id="toc-problems-of-crude-rates" class="nav-link" data-scroll-target="#problems-of-crude-rates">Problems of Crude Rates</a>
+  <ul class="collapse">
+  <li><a href="#age-specific-rates" id="toc-age-specific-rates" class="nav-link" data-scroll-target="#age-specific-rates">Age-Specific Rates</a></li>
+  <li><a href="#crude-death-rate" id="toc-crude-death-rate" class="nav-link" data-scroll-target="#crude-death-rate">Crude Death Rate</a></li>
+  </ul></li>
+  <li><a href="#minimizing-the-confounding-effect-of-age-composition" id="toc-minimizing-the-confounding-effect-of-age-composition" class="nav-link" data-scroll-target="#minimizing-the-confounding-effect-of-age-composition">Minimizing the confounding effect of age composition</a>
+  <ul class="collapse">
+  <li><a href="#age-specific-rates-1" id="toc-age-specific-rates-1" class="nav-link" data-scroll-target="#age-specific-rates-1">Age Specific Rates</a></li>
+  <li><a href="#age-standardization" id="toc-age-standardization" class="nav-link" data-scroll-target="#age-standardization">Age Standardization</a></li>
+  </ul></li>
+  <li><a href="#indirect-standardization" id="toc-indirect-standardization" class="nav-link" data-scroll-target="#indirect-standardization">Indirect Standardization</a>
+  <ul class="collapse">
+  <li><a href="#standardized-comparative-mortality-ratio" id="toc-standardized-comparative-mortality-ratio" class="nav-link" data-scroll-target="#standardized-comparative-mortality-ratio">Standardized Comparative Mortality Ratio</a></li>
+  </ul></li>
+  <li><a href="#period-vs.-cohort-approach" id="toc-period-vs.-cohort-approach" class="nav-link" data-scroll-target="#period-vs.-cohort-approach">Period vs.&nbsp;Cohort Approach</a>
+  <ul class="collapse">
+  <li><a href="#period-approach" id="toc-period-approach" class="nav-link" data-scroll-target="#period-approach">Period Approach</a></li>
+  <li><a href="#cohort-approach" id="toc-cohort-approach" class="nav-link" data-scroll-target="#cohort-approach">Cohort Approach</a></li>
+  <li><a href="#the-identification-problem" id="toc-the-identification-problem" class="nav-link" data-scroll-target="#the-identification-problem">The Identification Problem</a></li>
+  </ul></li>
+  <li><a href="#lexis-diagram" id="toc-lexis-diagram" class="nav-link" data-scroll-target="#lexis-diagram">Lexis Diagram</a>
+  <ul class="collapse">
+  <li><a href="#life-lines" id="toc-life-lines" class="nav-link" data-scroll-target="#life-lines">Life Lines</a></li>
+  <li><a href="#ways-of-classifying-events" id="toc-ways-of-classifying-events" class="nav-link" data-scroll-target="#ways-of-classifying-events">Ways of Classifying Events</a></li>
+  </ul></li>
+  <li><a href="#person-time-at-risk-in-the-lexis-diagram" id="toc-person-time-at-risk-in-the-lexis-diagram" class="nav-link" data-scroll-target="#person-time-at-risk-in-the-lexis-diagram">Person-time at risk in the Lexis Diagram</a></li>
+  </ul></li>
   <li><a href="#session-4" id="toc-session-4" class="nav-link" data-scroll-target="#session-4">Session 4</a></li>
   <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5</a></li>
-  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">5.11. Session 6</a>
+  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6</a>
   <ul class="collapse">
   <li><a href="#fertility-and-reproduction" id="toc-fertility-and-reproduction" class="nav-link" data-scroll-target="#fertility-and-reproduction">Fertility and Reproduction</a>
   <ul class="collapse">
@@ -490,6 +518,268 @@ PYL(0,T) = \frac{N(T) - N(0)}{r^*}
 </section>
 <section id="session-3" class="level1">
 <h1>Session 3</h1>
+<section id="problems-of-crude-rates" class="level2">
+<h2 class="anchored" data-anchor-id="problems-of-crude-rates">Problems of Crude Rates</h2>
+<ul>
+<li>Violate principle of correspondence
+<ul>
+<li>loose connection between risk of occurrence and exposure</li>
+</ul></li>
+<li>Too “crude” to compare demographic experiences among populations
+<ul>
+<li>does not take population structure into account</li>
+<li>=&gt; differences in demographic composition greatly influence principal crude rates</li>
+</ul></li>
+</ul>
+<section id="age-specific-rates" class="level3">
+<h3 class="anchored" data-anchor-id="age-specific-rates">Age-Specific Rates</h3>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Age-specific death rate
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Single ages:</p>
+<p><span class="math display">\[
+ASDR_x[0, T] = \frac{\# \text{deaths of people age x years [0, T]}}{PYL_x[0, T]}
+\]</span></p>
+<p><span class="math display">\[
+M_x = \frac{D_x}{PYL_x}
+\]</span></p>
+<p>Age groups of size <span class="math inline">\(n\)</span>, <span class="math inline">\([x, x + n)\)</span>:</p>
+<p><span class="math display">\[
+nM_x[0, T] = \frac{nD_x}{nPYL_x}
+\]</span></p>
+</div>
+</div>
+</section>
+<section id="crude-death-rate" class="level3">
+<h3 class="anchored" data-anchor-id="crude-death-rate">Crude Death Rate</h3>
+<p>CDR is the <strong>sum of ASDR weighted</strong> by the proportionate age distribution of the population.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+CDR expressed as sum of ASDRs
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+CDR = \sum{ASDR_i*c_i}
+\]</span></p>
+<p>where <span class="math inline">\(\sum{c_i} = 1\)</span></p>
+</div>
+</div>
+</section>
+</section>
+<section id="minimizing-the-confounding-effect-of-age-composition" class="level2">
+<h2 class="anchored" data-anchor-id="minimizing-the-confounding-effect-of-age-composition">Minimizing the confounding effect of age composition</h2>
+<section id="age-specific-rates-1" class="level3">
+<h3 class="anchored" data-anchor-id="age-specific-rates-1">Age Specific Rates</h3>
+<ul>
+<li><p><strong>ensures comparability</strong> among populations from within a specific age-group (despite different age-structures)</p></li>
+<li><p>hard to summarize or interpret</p></li>
+</ul>
+</section>
+<section id="age-standardization" class="level3">
+<h3 class="anchored" data-anchor-id="age-standardization">Age Standardization</h3>
+<ul>
+<li><p>Asses impact of ASDR based on <strong>age structure of a standard population</strong></p></li>
+<li><p>ASDR of a population is weighted by proportionate age distribution of a standard population</p></li>
+</ul>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+ASCDR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+ASCDR^j = \sum_{i = 1}^{\infty}{M^j_iC^s_i}
+\]</span></p>
+<p><span class="math inline">\(M_s^j\)</span> = age-specific death rates in population j</p>
+<p><span class="math inline">\(C_i^s\)</span> = age-specific population weights of the standard population</p>
+</div>
+</div>
+<section id="which-population-as-standard" class="level4">
+<h4 class="anchored" data-anchor-id="which-population-as-standard">Which population as standard?</h4>
+<ul>
+<li><p>One of the comparing populations</p>
+<ul>
+<li>not recommended, different results for different standards</li>
+</ul></li>
+<li><p>Average of the two population compositions</p>
+<ul>
+<li><p><span class="math inline">\(C_i^s = \frac{C^B_i + C^A_i}{2}\)</span></p></li>
+<li><p>When comparing more than 2 populations:</p>
+<ul>
+<li><p>Use standard close to mean or median of population structures</p></li>
+<li><p>Use regional age-structure</p></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="indirect-standardization" class="level2">
+<h2 class="anchored" data-anchor-id="indirect-standardization">Indirect Standardization</h2>
+<section id="standardized-comparative-mortality-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="standardized-comparative-mortality-ratio">Standardized Comparative Mortality Ratio</h3>
+<p>Summary measure to compare the death rates in two populations whilst accounting for different population distributions</p>
+<ul>
+<li>data on ASDR unavailable/fluctuating</li>
+<li>small populations</li>
+</ul>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>SMR = the ratio of the actual number of deaths in population <span class="math inline">\(A\)</span> to the expected number based on the age-specific death rates of the standard population</p>
+</div>
+</div>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+SMR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+SMR = \frac{\sum_i{D_i^A}}{\sum_i{M^S_iN_i^A}}
+\]</span></p>
+<p>If <span class="math inline">\(SMR &lt; 1\)</span>, <span class="math inline">\(M_iS &gt; M^A_i\)</span>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="period-vs.-cohort-approach" class="level2">
+<h2 class="anchored" data-anchor-id="period-vs.-cohort-approach">Period vs.&nbsp;Cohort Approach</h2>
+<section id="period-approach" class="level3">
+<h3 class="anchored" data-anchor-id="period-approach">Period Approach</h3>
+<p>Advantages:</p>
+<ul>
+<li><p>readily available data</p></li>
+<li><p>easy to interpret</p></li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li><p>violate the principle of correspondence</p></li>
+<li><p>does not reflect experience of real group of people</p></li>
+</ul>
+</section>
+<section id="cohort-approach" class="level3">
+<h3 class="anchored" data-anchor-id="cohort-approach">Cohort Approach</h3>
+<ul>
+<li><p><strong>real group of people</strong> who experience demographic events during a specific time interval, e.g: marriage cohort, school cohort, …</p></li>
+<li><p>Birth cohort = real group of people sharing the same birth date</p></li>
+</ul>
+<p>Cohort rate: <span class="math inline">\(cohort rate = [x, x+n] = \frac{\# \text{events in the cohort [x, x+n]}}{\text{PYL in the cohirt [x, x+n]}}\)</span></p>
+<section id="probability" class="level4">
+<h4 class="anchored" data-anchor-id="probability">Probability</h4>
+<p>= chance that some event will occur, not rate at which it occurs</p>
+<p><span class="math inline">\(Probability = \frac{\#Occurrences}{\# \text{preceeding events or trials}}\)</span></p>
+<p><span class="math inline">\(nqx^c = \frac{\#\text{Occurrences in cohort c [x, x+n]}}{\# \text{persons in the cohort reaching age. x}}\)</span></p>
+</section>
+</section>
+<section id="the-identification-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-identification-problem">The Identification Problem</h3>
+<p>Measures base on the cohort and period approaches are interlinked: Period = Age + Cohort</p>
+<section id="how-do-we-measure-age" class="level4">
+<h4 class="anchored" data-anchor-id="how-do-we-measure-age">How do we measure age?</h4>
+<ul>
+<li><p>Exact age</p>
+<ul>
+<li><p>exact number in years, months and days</p></li>
+<li><p>rarely used</p></li>
+</ul></li>
+<li><p>Age reached during the year</p>
+<ul>
+<li>remains constant during the whole calendar year</li>
+</ul></li>
+<li><p>Age reached last birth day/age in complete years</p>
+<ul>
+<li>remains constant until next birthday</li>
+</ul></li>
+</ul>
+<p>=&gt; disparity between age reached during year and age last birthday</p>
+</section>
+</section>
+</section>
+<section id="lexis-diagram" class="level2">
+<h2 class="anchored" data-anchor-id="lexis-diagram">Lexis Diagram</h2>
+<section id="life-lines" class="level3">
+<h3 class="anchored" data-anchor-id="life-lines">Life Lines</h3>
+<ul>
+<li><p>each person in LD has a life line</p></li>
+<li><p>diagonal (45°) line</p></li>
+<li><p>starts at birth, ends at death</p></li>
+</ul>
+</section>
+<section id="ways-of-classifying-events" class="level3">
+<h3 class="anchored" data-anchor-id="ways-of-classifying-events">Ways of Classifying Events</h3>
+<section id="age-period-classification" class="level4">
+<h4 class="anchored" data-anchor-id="age-period-classification">Age-Period Classification</h4>
+<ul>
+<li><p>Classification according to <strong>age and calendar time</strong></p></li>
+<li><p>Age in completed years</p></li>
+<li><p>Corresponds to two different cohorts</p></li>
+<li><p>Rectangle</p></li>
+</ul>
+<p><img src="images/Bildschirmfoto 2024-11-06 um 13.45.11.png" class="img-fluid"></p>
+<ul>
+<li><p>A - exposure/events by those who <strong>reached age 3 in the previous year</strong></p></li>
+<li><p>B - reach age 3 in the calendar year</p></li>
+</ul>
+</section>
+<section id="age-cohort-classification" class="level4">
+<h4 class="anchored" data-anchor-id="age-cohort-classification">Age-Cohort Classification</h4>
+<ul>
+<li><p>grouped together by <strong>age in completed years</strong> and within the <strong>same birth cohort</strong></p></li>
+<li><p>parallelogram, two horizontal lines (ages), two 45° lines (cohort)</p></li>
+<li><p>counting events will stretch over two calendar years</p></li>
+<li><p>Period = Cohort + age</p></li>
+</ul>
+<p><img src="images/Bildschirmfoto 2024-11-06 um 13.48.53.png" class="img-fluid"></p>
+</section>
+<section id="period-cohort-classification" class="level4">
+<h4 class="anchored" data-anchor-id="period-cohort-classification">Period-Cohort Classification</h4>
+<ul>
+<li><p>events/exposure occurred in a <strong>given calendar year</strong> and <strong>within a given cohort</strong></p></li>
+<li><p>parallelogram, two vertical lines (period), two 45° lines (cohort)</p></li>
+<li><p>Age reached = period - cohort</p></li>
+<li><p>Cohort will reach age x on average halfway through the period</p></li>
+</ul>
+<p><img src="images/Bildschirmfoto 2024-11-06 um 13.52.07.png" class="img-fluid"></p>
+<p>Summary:</p>
+<p><img src="images/Bildschirmfoto 2024-11-06 um 13.52.57.png" class="img-fluid"></p>
+</section>
+</section>
+</section>
+<section id="person-time-at-risk-in-the-lexis-diagram" class="level2">
+<h2 class="anchored" data-anchor-id="person-time-at-risk-in-the-lexis-diagram">Person-time at risk in the Lexis Diagram</h2>
+<p><span class="math inline">\(C\)</span> …. cohort</p>
+<p><span class="math inline">\(x\)</span> …. age</p>
+<p><span class="math inline">\(t\)</span> … period</p>
+<p>A-C: <span class="math inline">\(PYL^{C}_{[1, 2)} = \frac{P^C_x + P^C_{x+1}}{2} = P^{t+1}_{[x, x+ 1]}\)</span></p>
+</section>
 </section>
 <section id="session-4" class="level1">
 <h1>Session 4</h1>
@@ -498,7 +788,7 @@ PYL(0,T) = \frac{N(T) - N(0)}{r^*}
 <h1>Session 5</h1>
 </section>
 <section id="session-6" class="level1">
-<h1>5.11. Session 6</h1>
+<h1>Session 6</h1>
 <section id="fertility-and-reproduction" class="level2">
 <h2 class="anchored" data-anchor-id="fertility-and-reproduction">Fertility and Reproduction</h2>
 <p>Period TFR = average number of children who would be born to a hypothetical cohort of women</p>
