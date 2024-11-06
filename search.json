@@ -1,8 +1,29 @@
 [
   {
+    "objectID": "basic methods.html",
+    "href": "basic methods.html",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "Preston et al. p.2: “Demography is one of the social science disciplines where micro- and macro-level analyses find perhaps their most complete and satisfactory articulation.”\n\nPopulation structure by age and sex\nMultidimensional: education, area of residence and ethnicity\n\n\n\nEndogenous Mechanisms:\n\nBirth\nDeath\n\nExogenous Mechanisms:\n\nIn-migration\nOut-migration\n\nPopulation stock = size and composition of a given population at given point in time\nPopulation flows:\n\n\n\nEvents\nProcesses\n\n\n\n\nBirths\nFertility\n\n\nDeaths\nMortality\n\n\nMarriages\nNuptiality\n\n\nIn/out migration\nMigration\n\n\n\n\n\n\n\n\n\n\n\n\n\nBalancing Equation\n\n\n\n\\[\nN(T) = N(0) = B[0, T] - D[0, T] + I[0, T] - O[0, T]\n\\]\n\n\n\\(N(T)\\) = #person alive in population at time \\(T\\)\n\\(N(0)\\) = #person alive in population at time \\(0\\)\n\\(B[0, T]\\) = #births in pop. between time \\(0\\) and \\(T\\)\n\\(D[0, T]\\) = #deaths in pop. between time \\(0\\) and \\(T\\)\n\\(I[0, T]\\) = #in-migrations between time \\(0\\) and \\(T\\)\n\\(O[0, T]\\) = #out-migrations between time \\(0\\) and \\(T\\)\n\n\n\n\n\n\nDefinitions\n\n\n\nNatural increase/decrease = \\(B[0, T] - D[0, T]\\)\nNet migration = \\(I[0, T] - O[0, T]\\)\n\n\n\nComprehensive\nExact\nUsed for indirect estimation of net-migration\n\n\n\n\n\nCount number of occurrences\n\nimpractical\nheavily influenced by #people who are at risk of experiencing the event (e.g: increasing population size)\n\nVital events\n\nbirths, death, marriages, in/out-migration\n\nDemographic Data\n\nparish records, civil registration, census, sample surveys\n\nCombining flows to population stocks\n\ne.g: #deaths per 100 people\n\n\n\n\n\nnot all members equally exposed\nfrequency of occurrence higher the longer the exposure\nPYL = sum of each individuals time at risk of experiencing an event\n\n\n\n\n\\[\nPYL[0, T] = \\sum_{t = 1}^4{N_t\\Delta t}\n\\]\nContinuous time:\n\\[\nPYL[0, T] = \\int_{t = 0}^T{N_t dt}\n\\]\n\n\n\n= demographic rate is an indicator that properly relates the frequency of an event to the size of population exposed to the event\n\\[\nRate = \\frac{\\# \\text{occurrences [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Death Rate:\n\\[\nCDR[0, T] = \\frac{\\# \\text{deaths [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Birth Rate: \\[\nCBR[0, T] = \\frac{\\# \\text{births [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude In-Migration Rate: \\[\nCRIM[0, T] = \\frac{\\# \\text{in-migrations [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPYL Approximation\n\n\n\nMidyear method:\n\\[\nPYL = N_{mid} * T\n\\]\nAverage population method:\n\\[\nPYL(0, T) = \\frac{N(T) + N(0)}{2} * T\n\\]"
+  },
+  {
+    "objectID": "basic methods.html#population-growth-rates",
+    "href": "basic methods.html#population-growth-rates",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Population Growth Rates",
+    "text": "Population Growth Rates\n\nInstantaneous Growth Rate\n\n\n\n\n\n\nDefinition\n\n\n\nInstantaneous growth rate = crude growth rate at a point in time or in very tiny interval of time\n\n\n\n\n\n\n\n\nImportant\n\n\n\n\\[\nr(t) = \\frac{dN(t)}{dt} * \\frac{1}{N(t)} = \\frac{dln(N(t))}{dt}\n\\] This represents the fraction by which a population would grow during a tiny period of time.\n\n\n\n\nExponential Growth Model\n\n\n\n\n\n\nExponential growth model\n\n\n\n\\[N(t) = N(0)e^{\\int_0^T{r(t)dt}}\\]\nFor constant \\(r(t)\\) between 0 and T at \\(r^{*}\\): \\[N(t) = N(0)e^{Tr^{*}}\\]\n\n\n\n\n\n\n\n\nConstant growth assumption\n\n\n\nAssumption: \\(r(t) = r^*\\)\n\\[ r^* = ln(\\frac{N(T)}{N(0)}) * \\frac{1}{T}\\]\n\n\nIn a closed population -> constant change in RNI\n\\(r^* = ln(1 + \\frac{B(t)-D(t)}{N(0)}) * \\frac{1}{T}\\)\n\n\nDoubling Time\nThe time it would take for a population to double in size at a given growth rate, assuming the exponential model holds.\n\n\n\n\n\n\nDoubling time\n\n\n\n\\[\nT_{double} = ln(2) * \\frac{1}{r^*}\n\\]"
+  },
+  {
+    "objectID": "basic methods.html#estimating-period-pyl",
+    "href": "basic methods.html#estimating-period-pyl",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Estimating Period PYL",
+    "text": "Estimating Period PYL\nEstimating PYL under constant exponential growth rate assumption.\n\n\n\n\n\n\nPYL (constant growth)\n\n\n\n\\[\nPYL(0,T) = \\frac{N(T) - N(0)}{r^*}\n\\]\n\n\n\nLimitations of midyear approach\n\nIf N(t) is linear -> good approximation => use for short time intervals\nUnder constant exponential growth rate assumption -> underestimation"
+  },
+  {
     "objectID": "basic methods.html#fertility-and-reproduction",
     "href": "basic methods.html#fertility-and-reproduction",
-    "title": "Basic Methods",
+    "title": "Basic Methods of Demographic Analysis",
     "section": "Fertility and Reproduction",
     "text": "Fertility and Reproduction\nPeriod TFR = average number of children who would be born to a hypothetical cohort of women\nAssumptions:\n\nif they had all survived to the end of their reproductive period\nbear children at each age at the rate observed during a particular period\n\n\nReproductive measures\n\nTFR > 2.1 -> population is growing\nTFR < 2.1 -> population\n\nTFR as growth indicator ignores two factors: sex ratio and mortality\nComparing the sizes of successive generations (comparing #daughters and #mothers) -> ASFR using female births\n\\[\nnF_x^f = \\frac{\\# \\text{female births to women age }[x, x + n]}{\\text{PYL of women age }[x, x + n]}\n\\]\n\nGross Reproduction Rate\nGRR = number of daughters an average women would have if she lived through the end of their reproductive span\n\n\nNet Reproduction Rate\n= total number of daughter each member of a birth cohort of women produce during their reproduction life span if they were subject to the observed ASFR and ASMR\n-> NRR is simply GRR adjusted or mortality\nGRR and NRR:\n\\(l_0\\) = original size of the women birth cohort\n\\(nL_x^f\\) = PYL by members of the cohort of women in age interval \\([x, x+n]\\)\n\\(nF_x^f * nL_x^f\\) = number of daughters born to between \\([x,x+n]\\) to a birth cohort of women\nAverage number of daughters born to a cohort of size \\(l_0\\)\n\\[ NRR = \\frac{\\sum{F_i^F * nL_x^f}}{l_0}\\] ????\n\nIf NRR > 1, cohort of girls will replace a bigger cohort of daughters than themselves\nIf NRR = 1, the next generation will be exactly the same size as the present one\nIf NRR < 1, implies that each generation is smaller than the previous generation, so the population will decline from natural decline across the generations\n\n\n\n\n\n\n\nNote\n\n\n\nThe stable population assumption is crucial when interpreting the NRR, meaning it is assumed that the structure of a population does not change over time.\n\nConstant fertility and mortality rates\n\n\n\n\n\n\nParity Progression Ratio\nThe parity progression ratio measures proportion of women with \\(n\\) children who go on to have \\(n+1\\) children.\n\nWhat proportion of women\n???\n\n\nCalculating PRR\n\\(W\\) … original cohort size\n\\(W_j\\) … #women at parity \\(i\\)\n\\(W = \\sum_{j = 0}^{I}{W_j}\\)\n\\(P_j\\) … #women at parity \\(j\\) or more\n\\(P_j = \\sum_{a= j}^{I}{W_a}\\)\n\\[ PRR_{j, j+1} = \\frac{\\text{Women at Parity j + 1 or more }}{\\text{Women at Parity j or more}} = \\frac{P_{j+1}}{P_j}\\]\n\n\n\nCompleted cohort fertility\n\\[\nCCF = \\sum_{i = 1}{PPR(0,i)}\n\\]\n\n\nOrder Specific TFR\nBirth order refers to the rank of a birth according to the number of previous births to the mother.\n\\[\nF_{i, j, t} = \\frac{\\text{#births of order j to women in age group i}}{}\n\\]\n2 sections\nshort essays about basic concepts, definitions, simple data for calculations, limitations of crude rates eg\nreal data, like Sweden case, summary indicators, life table, similar to homework"
   },
@@ -26,6 +47,13 @@
     "title": "fertility",
     "section": "Proximate determinants of Total de",
     "text": "Proximate determinants of Total de"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Global Demography",
+    "section": "",
+    "text": "Lecture Notes Wintersemester 2024/2025"
   },
   {
     "objectID": "about.html",
