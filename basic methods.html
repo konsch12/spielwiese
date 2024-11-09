@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./introduction.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">Introduction to Demographic Theories</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -109,12 +109,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basic methods.html" class="sidebar-item-text sidebar-link active">Basic Methods</a>
+  <a href="./basic methods.html" class="sidebar-item-text sidebar-link active">Basic Methods of Demographic Analysis</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./migration lecture.html" class="sidebar-item-text sidebar-link">Migration</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mortality.html" class="sidebar-item-text sidebar-link">Mortality, Health and Ageing</a>
   </div>
 </li>
     </ul>
@@ -184,12 +189,39 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ways-of-classifying-events" id="toc-ways-of-classifying-events" class="nav-link" data-scroll-target="#ways-of-classifying-events">Ways of Classifying Events</a></li>
   </ul></li>
   <li><a href="#person-time-at-risk-in-the-lexis-diagram" id="toc-person-time-at-risk-in-the-lexis-diagram" class="nav-link" data-scroll-target="#person-time-at-risk-in-the-lexis-diagram">Person-time at risk in the Lexis Diagram</a></li>
+  <li><a href="#infant-mortality-rate" id="toc-infant-mortality-rate" class="nav-link" data-scroll-target="#infant-mortality-rate">Infant Mortality Rate</a></li>
   </ul></li>
-  <li><a href="#session-4" id="toc-session-4" class="nav-link" data-scroll-target="#session-4">Session 4</a></li>
-  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5</a></li>
-  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6</a>
+  <li><a href="#session-4" id="toc-session-4" class="nav-link" data-scroll-target="#session-4">Session 4</a>
+  <ul class="collapse">
+  <li><a href="#life-tables" id="toc-life-tables" class="nav-link" data-scroll-target="#life-tables">Life Tables</a>
+  <ul class="collapse">
+  <li><a href="#single-decrement-life-table" id="toc-single-decrement-life-table" class="nav-link" data-scroll-target="#single-decrement-life-table">Single Decrement Life Table</a></li>
+  <li><a href="#multiple-decrement-life-table" id="toc-multiple-decrement-life-table" class="nav-link" data-scroll-target="#multiple-decrement-life-table">Multiple Decrement Life Table</a></li>
+  <li><a href="#multi-state-and-increment-decrement-life-table" id="toc-multi-state-and-increment-decrement-life-table" class="nav-link" data-scroll-target="#multi-state-and-increment-decrement-life-table">Multi-State and increment-decrement life table</a></li>
+  <li><a href="#cohort-vs.-period-life-tables" id="toc-cohort-vs.-period-life-tables" class="nav-link" data-scroll-target="#cohort-vs.-period-life-tables">Cohort vs.&nbsp;Period Life tables</a></li>
+  </ul></li>
+  <li><a href="#columns-of-a-life-table" id="toc-columns-of-a-life-table" class="nav-link" data-scroll-target="#columns-of-a-life-table">Columns of a life table</a></li>
+  <li><a href="#period-life-table" id="toc-period-life-table" class="nav-link" data-scroll-target="#period-life-table">Period Life Table</a>
+  <ul class="collapse">
+  <li><a href="#nm_x---nq_x-conversion" id="toc-nm_x---nq_x-conversion" class="nav-link" data-scroll-target="#nm_x---nq_x-conversion"><span class="math inline">\(nM_X\)</span> -&gt; <span class="math inline">\(nq_x\)</span> conversion</a></li>
+  <li><a href="#choosing-na_x" id="toc-choosing-na_x" class="nav-link" data-scroll-target="#choosing-na_x">Choosing <span class="math inline">\(na_x\)</span></a></li>
+  <li><a href="#na_x-for-the-very-young-ages" id="toc-na_x-for-the-very-young-ages" class="nav-link" data-scroll-target="#na_x-for-the-very-young-ages"><span class="math inline">\(na_x\)</span> for the very young ages</a></li>
+  <li><a href="#open-ended-age-interval" id="toc-open-ended-age-interval" class="nav-link" data-scroll-target="#open-ended-age-interval">Open-ended age interval</a></li>
+  <li><a href="#aggregating-e_0" id="toc-aggregating-e_0" class="nav-link" data-scroll-target="#aggregating-e_0">Aggregating <span class="math inline">\(e_0\)</span></a></li>
+  <li><a href="#decomposing-a-difference-in-le" id="toc-decomposing-a-difference-in-le" class="nav-link" data-scroll-target="#decomposing-a-difference-in-le">Decomposing a difference in LE</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#session-5" id="toc-session-5" class="nav-link" data-scroll-target="#session-5">Session 5</a>
   <ul class="collapse">
   <li><a href="#fertility-and-reproduction" id="toc-fertility-and-reproduction" class="nav-link" data-scroll-target="#fertility-and-reproduction">Fertility and Reproduction</a>
+  <ul class="collapse">
+  <li><a href="#problems-with-fertility-analysis" id="toc-problems-with-fertility-analysis" class="nav-link" data-scroll-target="#problems-with-fertility-analysis">Problems with Fertility Analysis</a></li>
+  <li><a href="#period-indicators" id="toc-period-indicators" class="nav-link" data-scroll-target="#period-indicators">Period Indicators</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#session-6" id="toc-session-6" class="nav-link" data-scroll-target="#session-6">Session 6</a>
+  <ul class="collapse">
+  <li><a href="#fertility-and-reproduction-1" id="toc-fertility-and-reproduction-1" class="nav-link" data-scroll-target="#fertility-and-reproduction-1">Fertility and Reproduction</a>
   <ul class="collapse">
   <li><a href="#reproductive-measures" id="toc-reproductive-measures" class="nav-link" data-scroll-target="#reproductive-measures">Reproductive measures</a></li>
   <li><a href="#parity-progression-ratio" id="toc-parity-progression-ratio" class="nav-link" data-scroll-target="#parity-progression-ratio">Parity Progression Ratio</a></li>
@@ -347,8 +379,9 @@ Definitions
 </section>
 <section id="calculating-pyl" class="level3">
 <h3 class="anchored" data-anchor-id="calculating-pyl">Calculating PYL</h3>
+<p>Discrete time:</p>
 <p><span class="math display">\[
-PYL[0, T] = \sum_{t = 1}^4{N_t\Delta t}
+PYL[0, T] = \sum_{t = 0}^T{N_t\Delta t}
 \]</span></p>
 <p>Continuous time:</p>
 <p><span class="math display">\[
@@ -619,12 +652,12 @@ ASCDR^j = \sum_{i = 1}^{\infty}{M^j_iC^s_i}
 </ul></li>
 <li><p>Average of the two population compositions</p>
 <ul>
-<li><p><span class="math inline">\(C_i^s = \frac{C^B_i + C^A_i}{2}\)</span></p></li>
+<li><span class="math inline">\(C_i^s = \frac{C^B_i + C^A_i}{2}\)</span></li>
+</ul></li>
 <li><p>When comparing more than 2 populations:</p>
 <ul>
 <li><p>Use standard close to mean or median of population structures</p></li>
 <li><p>Use regional age-structure</p></li>
-</ul></li>
 </ul></li>
 </ul>
 </section>
@@ -778,21 +811,301 @@ SMR = \frac{\sum_i{D_i^A}}{\sum_i{M^S_iN_i^A}}
 <p><span class="math inline">\(C\)</span> …. cohort</p>
 <p><span class="math inline">\(x\)</span> …. age</p>
 <p><span class="math inline">\(t\)</span> … period</p>
+<p>A-P: <span class="math inline">\(PYL^t_{[x, x+1]} = \frac{P^t_{[x, x + 1 ]} + P^{t + 1}_{[x, x+ 1]}}{2}\)</span></p>
 <p>A-C: <span class="math inline">\(PYL^{C}_{[1, 2)} = \frac{P^C_x + P^C_{x+1}}{2} = P^{t+1}_{[x, x+ 1]}\)</span></p>
+<p>C-P: <span class="math inline">\(PYL^C_y = \frac{P^c_t + P^c_{t+1}}{2}\)</span></p>
+<p><img src="images/Bildschirmfoto 2024-11-09 um 18.18.28.png" class="img-fluid"></p>
+</section>
+<section id="infant-mortality-rate" class="level2">
+<h2 class="anchored" data-anchor-id="infant-mortality-rate">Infant Mortality Rate</h2>
+<p>IMR is a period measure, concerns children &lt;1y.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+IMR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+IMR = \frac{\# \text{Deaths under age 1 in year t}}{\# \text{live births in year t}}
+\]</span></p>
+</div>
+</div>
+<ul>
+<li><p>neither rate nor probability (principle of correspondence)</p>
+<ul>
+<li>will equal to the probability of dying before age 1 for the cohort born in year t if <span class="math inline">\(pD_0^t = PD_0^{t + 1}\)</span>.</li>
+</ul></li>
+</ul>
 </section>
 </section>
 <section id="session-4" class="level1">
 <h1>Session 4</h1>
+<section id="life-tables" class="level2">
+<h2 class="anchored" data-anchor-id="life-tables">Life Tables</h2>
+<ul>
+<li><p>age-specific mortaliy experience of a cohort</p></li>
+<li><p>derived by following birth cohort through life, tabulated proportion of surviving</p></li>
+<li><p>can be used to study any kind of failure process</p>
+<ul>
+<li><p>unambigious starting point</p></li>
+<li><p>failure is unambigious event with clear location in ti,e</p></li>
+<li><p>process measured in time, varying with age/other duration measure</p></li>
+</ul></li>
+</ul>
+<section id="single-decrement-life-table" class="level3">
+<h3 class="anchored" data-anchor-id="single-decrement-life-table">Single Decrement Life Table</h3>
+<ul>
+<li><p>single, universal</p></li>
+<li><p>unidirectional transition</p></li>
+<li><p>ALIVE -&gt; DEAD</p></li>
+</ul>
+</section>
+<section id="multiple-decrement-life-table" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-decrement-life-table">Multiple Decrement Life Table</h3>
+<ul>
+<li><p>more than one transition possible</p></li>
+<li><p>competing risks, only one cause of death</p></li>
+<li><p>ALIVE -&gt; CAUSE A/ CAUSE B/ CAUSE C</p></li>
+</ul>
+</section>
+<section id="multi-state-and-increment-decrement-life-table" class="level3">
+<h3 class="anchored" data-anchor-id="multi-state-and-increment-decrement-life-table">Multi-State and increment-decrement life table</h3>
+<ul>
+<li>recurring event</li>
+</ul>
+<p><img src="images/Bildschirmfoto 2024-11-09 um 18.32.55.png" class="img-fluid"></p>
+</section>
+<section id="cohort-vs.-period-life-tables" class="level3">
+<h3 class="anchored" data-anchor-id="cohort-vs.-period-life-tables">Cohort vs.&nbsp;Period Life tables</h3>
+<ul>
+<li>Cohort: traces experience of an actual cohort of newborn babies through entire life</li>
+<li>Period: cohort data outdated/unavailable, follow-up loss =&gt; synthetic cohort rate used</li>
+</ul>
+</section>
+</section>
+<section id="columns-of-a-life-table" class="level2">
+<h2 class="anchored" data-anchor-id="columns-of-a-life-table">Columns of a life table</h2>
+<ul>
+<li><p><span class="math inline">\(l_x\)</span> = <strong>#survivors</strong> to age x</p></li>
+<li><p><span class="math inline">\(nd_x\)</span> = <strong>#dying</strong> in the age interval</p></li>
+<li><p><span class="math inline">\(np_x\)</span> = <strong>survival probability</strong> in the interval</p></li>
+<li><p><span class="math inline">\(nq_x\)</span> = <strong>probability of dying</strong> in the interval</p></li>
+<li><p><span class="math inline">\(na_x\)</span> = average years lived by those dying in the interval</p></li>
+<li><p><span class="math inline">\(nL_x\)</span> = PYL in the interval</p></li>
+<li><p><span class="math inline">\(T_x\)</span> = <strong>total PYL</strong> above age x</p></li>
+<li><p><span class="math inline">\(e_x\)</span> = remaining life expectancy</p></li>
+</ul>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Life Table Formulas COHORT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(nd_x = l_x - l_{x+n}\)</span></p>
+<p><span class="math inline">\(np_x = \frac{l_{x + n}}{l_x}\)</span></p>
+<p><span class="math inline">\(nq_x = 1 - np_x = \frac{nd_x}{l_x}\)</span></p>
+<p><span class="math inline">\(nL_x = n * l_{x +n} + \sum{A_i}\)</span></p>
+</div>
+</div>
+</section>
+<section id="period-life-table" class="level2">
+<h2 class="anchored" data-anchor-id="period-life-table">Period Life Table</h2>
+<p>Solution 1: computing q-type rates for each cohort who reach age x in year t =&gt; Assumption: AP = AC</p>
+<p>Limitation: data availability on <span class="math inline">\(l_x\)</span></p>
+<section id="nm_x---nq_x-conversion" class="level3">
+<h3 class="anchored" data-anchor-id="nm_x---nq_x-conversion"><span class="math inline">\(nM_X\)</span> -&gt; <span class="math inline">\(nq_x\)</span> conversion</h3>
+<p>Basic assumption: <span class="math inline">\(nm_x = nM_x\)</span></p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Period Life Table Formulas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(nM_x = \frac{nD_x}{PYL}\)</span></p>
+<p><span class="math inline">\(nm_x = \frac{nd_x}{nL_x}\)</span></p>
+<p><span class="math inline">\(nq_x = \frac{n* nm_x}{1 + (n - na_x)nm_x}\)</span></p>
+<p><span class="math inline">\(L_x = n * l_{x + n} + na_x * nd_x\)</span></p>
+<p><span class="math inline">\(L_{last} = l_{last}/M_{last}\)</span></p>
+<p><span class="math inline">\(T_x = \sum_{x}^{\infty}{L_x}\)</span></p>
+<p><span class="math inline">\(e_x = \frac{T_x}{l_x}\)</span></p>
+</div>
+</div>
+</section>
+<section id="choosing-na_x" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-na_x">Choosing <span class="math inline">\(na_x\)</span></h3>
+<ul>
+<li><p>Direct observation: rarely available, influenced by age distribution</p></li>
+<li><p>Graduation of <span class="math inline">\(nm_x\)</span> function: observing level and slope of curve</p></li>
+<li><p>Rule of Thumb</p>
+<ul>
+<li><p>Deaths on average halfway through the interval</p>
+<ul>
+<li><span class="math inline">\(na_x = \frac{n}{2}\)</span></li>
+</ul></li>
+<li><p>Constant <span class="math inline">\(nm_x\)</span> in the interval</p>
+<ul>
+<li><span class="math inline">\(na_x &lt; \frac{n}{2}\)</span></li>
+</ul></li>
+</ul></li>
+<li><p>Borrowing from another population</p></li>
+</ul>
+</section>
+<section id="na_x-for-the-very-young-ages" class="level3">
+<h3 class="anchored" data-anchor-id="na_x-for-the-very-young-ages"><span class="math inline">\(na_x\)</span> for the very young ages</h3>
+<p><img src="images/Bildschirmfoto 2024-11-09 um 19.14.37.png" class="img-fluid"></p>
+</section>
+<section id="open-ended-age-interval" class="level3">
+<h3 class="anchored" data-anchor-id="open-ended-age-interval">Open-ended age interval</h3>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(\infty q_x = 1\)</span></p>
+<p><span class="math inline">\(\infty a_x = \frac{1}{\infty m_x}\)</span></p>
+<p><span class="math inline">\(\infty L_x = \frac{\infty d_x}{\infty m_x}\)</span> ???</p>
+</div>
+</div>
+</section>
+<section id="aggregating-e_0" class="level3">
+<h3 class="anchored" data-anchor-id="aggregating-e_0">Aggregating <span class="math inline">\(e_0\)</span></h3>
+<ul>
+<li><p>Averaging procedure:</p>
+<ul>
+<li><p>weighted average of county-level LE</p></li>
+<li><p>weights can be relative population size</p></li>
+</ul></li>
+<li><p>Merging procedure</p>
+<ul>
+<li><p>merging deaths and exposure to risk in larger units</p></li>
+<li><p>recommended</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="decomposing-a-difference-in-le" class="level3">
+<h3 class="anchored" data-anchor-id="decomposing-a-difference-in-le">Decomposing a difference in LE</h3>
+<p>see Preston et al.&nbsp;p.&nbsp;64/65</p>
+</section>
+</section>
 </section>
 <section id="session-5" class="level1">
 <h1>Session 5</h1>
+<p>Life table content see Session 4.</p>
+<section id="fertility-and-reproduction" class="level2">
+<h2 class="anchored" data-anchor-id="fertility-and-reproduction">Fertility and Reproduction</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Definitions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fertility = incremental process whereby members of a population create new members through births</p>
+<p>Reproduction = process whereby new members of a population replace the previous generation of women, involves mortality and fertility</p>
+<p>Birth order = rank of a birth according to #previous births to the mother</p>
+<p>Parity = #live births the woman has had</p>
+<p>Fecundity = physiological capability to produce a live birth</p>
+<p>Fecundability = monthly probability of conception in the absence of contraception or temporary infertility</p>
+</div>
+</div>
+<section id="problems-with-fertility-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="problems-with-fertility-analysis">Problems with Fertility Analysis</h3>
+<ul>
+<li><p>repeated events</p></li>
+<li><p>risk of experiencing a birth is not universal among female population</p>
+<ul>
+<li><p>physiological or medical reasons</p>
+<ul>
+<li>varies with age</li>
+</ul></li>
+<li><p>individual/household choice</p>
+<ul>
+<li>contraceptives, sexual activity, abortion, relationship status</li>
+</ul></li>
+<li><p>socially regulated</p>
+<ul>
+<li>culture/social norms</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="period-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="period-indicators">Period Indicators</h3>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Period Indicators
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(CBR[0, T] = \frac{\# \text{births [0, T]}}{PYL[0, T]} * 1000\)</span></p>
+<p><span class="math inline">\(GFR = \frac{\# \text{births [0, T]}}{\text{PYL by women of childbearing age [0, T]}}\)</span></p>
+<p><span class="math inline">\(ASFR_x = \frac{\# \text{births at age x}}{\text{Female PYL at age x}}\)</span></p>
+<p><span class="math inline">\(ASCBR[0, T] = \sum_{i = 1}^I{ASFR_i * C_i^S}\)</span></p>
+<p><span class="math inline">\(C_i^S\)</span> … share of total PYL lived by women in i-th age group</p>
+<p><span class="math inline">\(TFR[0, T] = n * \sum_{i = 1}^I{ASFR_i[0, T]}\)</span></p>
+</div>
+</div>
+<ul>
+<li><p>GFR instead of CBR: denominator matches better</p></li>
+<li><p>Problems with CBR/GFR: do not account for age structure -&gt; Age standardization</p></li>
+<li><p>TFR</p>
+<ul>
+<li><p>most widely used age-standardized summary indicator</p></li>
+<li><p>= average #children a women would bear if she survived through the end of reproductive age span and experienced a particular fertility schedule at each age</p></li>
+<li><p>independent of variability in age structure</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
 </section>
 <section id="session-6" class="level1">
 <h1>Session 6</h1>
-<section id="fertility-and-reproduction" class="level2">
-<h2 class="anchored" data-anchor-id="fertility-and-reproduction">Fertility and Reproduction</h2>
+<section id="fertility-and-reproduction-1" class="level2">
+<h2 class="anchored" data-anchor-id="fertility-and-reproduction-1">Fertility and Reproduction</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Definitions
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Completed cohort fertility = completed family size = actual average number of childrenthat women of a real cohort do haveby the end of their childbearing years</p>
 <p>Period TFR = average number of children who would be born to a hypothetical cohort of women</p>
-<p>Assumptions:</p>
+</div>
+</div>
+<p>Cohort assumptions:</p>
+<ul>
+<li><p>they had all survived to the end of their reproductive period</p></li>
+<li><p>had the same rate of childbearing at each age as the women who survived</p></li>
+</ul>
+<p>Period assumptions:</p>
 <ul>
 <li><p>if they had all survived to the end of their reproductive period</p></li>
 <li><p>bear children at each age at the rate observed during a particular period</p></li>
@@ -808,18 +1121,31 @@ SMR = \frac{\sum_i{D_i^A}}{\sum_i{M^S_iN_i^A}}
 <p><span class="math display">\[
 nF_x^f = \frac{\# \text{female births to women age }[x, x + n]}{\text{PYL of women age }[x, x + n]}
 \]</span></p>
-<section id="gross-reproduction-rate" class="level4">
-<h4 class="anchored" data-anchor-id="gross-reproduction-rate">Gross Reproduction Rate</h4>
+<section id="gross-and-net-reproduction-rate" class="level4">
+<h4 class="anchored" data-anchor-id="gross-and-net-reproduction-rate">Gross and Net Reproduction Rate</h4>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Definitions
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>GRR = number of daughters an average women would have if she lived through the end of their reproductive span</p>
-</section>
-<section id="net-reproduction-rate" class="level4">
-<h4 class="anchored" data-anchor-id="net-reproduction-rate">Net Reproduction Rate</h4>
-<p>= total number of daughter each member of a birth cohort of women produce during their reproduction life span if they were subject to the observed ASFR and ASMR</p>
-<p>-&gt; NRR is simply GRR adjusted or mortality</p>
+<p>NRR = total number of daughter each member of a birth cohort of women produce during their reproduction life span if they were subject to the observed ASFR and ASMR</p>
+</div>
+</div>
+<ul>
+<li><p>NRR is simply GRR adjusted or mortality</p></li>
+<li><p>NRR measures size of the next generation compared to present one</p></li>
+</ul>
 <p>GRR and NRR:</p>
 <p><span class="math inline">\(l_0\)</span> = original size of the women birth cohort</p>
 <p><span class="math inline">\(nL_x^f\)</span> = PYL by members of the cohort of women in age interval <span class="math inline">\([x, x+n]\)</span></p>
 <p><span class="math inline">\(nF_x^f * nL_x^f\)</span> = number of daughters born to between <span class="math inline">\([x,x+n]\)</span> to a birth cohort of women</p>
+<p><strong>No Mortality:</strong></p>
 <p>Average number of daughters born to a cohort of size <span class="math inline">\(l_0\)</span></p>
 <p><span class="math display">\[ NRR = \frac{\sum{F_i^F * nL_x^f}}{l_0}\]</span> ????</p>
 <ul>
