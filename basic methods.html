@@ -228,6 +228,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#completed-cohort-fertility" id="toc-completed-cohort-fertility" class="nav-link" data-scroll-target="#completed-cohort-fertility">Completed cohort fertility</a></li>
   <li><a href="#order-specific-tfr" id="toc-order-specific-tfr" class="nav-link" data-scroll-target="#order-specific-tfr">Order Specific TFR</a></li>
   </ul></li>
+  <li><a href="#exam-info" id="toc-exam-info" class="nav-link" data-scroll-target="#exam-info">Exam Info</a></li>
+  </ul></li>
+  <li><a href="#session-7" id="toc-session-7" class="nav-link" data-scroll-target="#session-7">Session 7</a>
+  <ul class="collapse">
+  <li><a href="#period-tfr-vs.-ccf" id="toc-period-tfr-vs.-ccf" class="nav-link" data-scroll-target="#period-tfr-vs.-ccf">Period TFR vs.&nbsp;CCF</a>
+  <ul class="collapse">
+  <li><a href="#why-would-the-period-tfr-change" id="toc-why-would-the-period-tfr-change" class="nav-link" data-scroll-target="#why-would-the-period-tfr-change">Why would the period TFR change?</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -1146,8 +1154,15 @@ Definitions
 <p><span class="math inline">\(nL_x^f\)</span> = PYL by members of the cohort of women in age interval <span class="math inline">\([x, x+n]\)</span></p>
 <p><span class="math inline">\(nF_x^f * nL_x^f\)</span> = number of daughters born to between <span class="math inline">\([x,x+n]\)</span> to a birth cohort of women</p>
 <p><strong>No Mortality:</strong></p>
-<p>Average number of daughters born to a cohort of size <span class="math inline">\(l_0\)</span></p>
-<p><span class="math display">\[ NRR = \frac{\sum{F_i^F * nL_x^f}}{l_0}\]</span> ????</p>
+<p>Average number of daughters born to a cohort of size <span class="math inline">\(l_0\)</span>:</p>
+<p><span class="math display">\[
+GRR = n * \sum{nF_x^f}
+\]</span></p>
+<p><strong>Adjusting for Mortality</strong>:</p>
+<p>Average number of daughters born to a cohort of size <span class="math inline">\(l_0\)</span>: <span class="math display">\[ NRR = \frac{\sum{F_i^F * nL_x^f}}{l_0}\]</span></p>
+</section>
+<section id="interpretation-of-nrr" class="level4">
+<h4 class="anchored" data-anchor-id="interpretation-of-nrr">Interpretation of NRR</h4>
 <ul>
 <li>If NRR &gt; 1, cohort of girls will replace a bigger cohort of daughters than themselves</li>
 <li>If NRR = 1, the next generation will be exactly the same size as the present one</li>
@@ -1165,7 +1180,8 @@ Note
 <div class="callout-body-container callout-body">
 <p>The stable population assumption is crucial when interpreting the NRR, meaning it is assumed that the structure of a population does not change over time.</p>
 <ul>
-<li>Constant fertility and mortality rates</li>
+<li>Constant fertility and mortality rates: age-specific rates stay the same over time</li>
+<li>unchanging age composition</li>
 </ul>
 </div>
 </div>
@@ -1175,34 +1191,111 @@ Note
 <h3 class="anchored" data-anchor-id="parity-progression-ratio">Parity Progression Ratio</h3>
 <p>The parity progression ratio measures proportion of women with <span class="math inline">\(n\)</span> children who go on to have <span class="math inline">\(n+1\)</span> children.</p>
 <ul>
-<li><p>What proportion of women</p></li>
-<li><p>???</p></li>
+<li><p>completed family size among a cohort of women</p></li>
+<li><p>pattern of fertility-limiting behaviour in a population</p></li>
 </ul>
 <section id="calculating-prr" class="level4">
 <h4 class="anchored" data-anchor-id="calculating-prr">Calculating PRR</h4>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>PPR = proportion of a cohort who had least <span class="math inline">\(j\)</span> live births and went on to have at least one more.</p>
+</div>
+</div>
 <p><span class="math inline">\(W\)</span> … original cohort size</p>
 <p><span class="math inline">\(W_j\)</span> … #women at parity <span class="math inline">\(i\)</span></p>
 <p><span class="math inline">\(W = \sum_{j = 0}^{I}{W_j}\)</span></p>
 <p><span class="math inline">\(P_j\)</span> … #women at parity <span class="math inline">\(j\)</span> or more</p>
 <p><span class="math inline">\(P_j = \sum_{a= j}^{I}{W_a}\)</span></p>
-<p><span class="math display">\[ PRR_{j, j+1} = \frac{\text{Women at Parity j + 1 or more }}{\text{Women at Parity j or more}} = \frac{P_{j+1}}{P_j}\]</span></p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+PPR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[ PRR_{j, j+1} = \frac{\text{Women at Parity j + 1 or more }}{\text{Women at Parity j or more}} = \frac{P_{j+1}}{P_j} = a_j\]</span></p>
+</div>
+</div>
 </section>
 </section>
 <section id="completed-cohort-fertility" class="level3">
 <h3 class="anchored" data-anchor-id="completed-cohort-fertility">Completed cohort fertility</h3>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+CCF
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><span class="math display">\[
 CCF = \sum_{i = 1}{PPR(0,i)}
 \]</span></p>
+</div>
+</div>
 </section>
 <section id="order-specific-tfr" class="level3">
 <h3 class="anchored" data-anchor-id="order-specific-tfr">Order Specific TFR</h3>
 <p>Birth order refers to the rank of a birth according to the number of previous births to the mother.</p>
 <p><span class="math display">\[
-F_{i, j, t} = \frac{\text{#births of order j to women in age group i}}{}
+F_{i, j, t} = \frac{\# \text{births of order j to women in age group i}}{\text{PYL of women age i in a given year t}}
 \]</span></p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Order Specific TFR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+TFR_{j,t} = n * \sum_{i = 1}^I{F_{i,j, t}}
+\]</span></p>
+<p><span class="math inline">\(i\)</span> … age interval</p>
+<p><span class="math inline">\(j\)</span> … order of birth</p>
+</div>
+</div>
+</section>
+</section>
+<section id="exam-info" class="level2">
+<h2 class="anchored" data-anchor-id="exam-info">Exam Info</h2>
 <p>2 sections</p>
-<p>short essays about basic concepts, definitions, simple data for calculations, limitations of crude rates eg</p>
+<p>short essays about basic concepts, definitions, simple data for calculations, e.g: limitations of crude rates</p>
 <p>real data, like Sweden case, summary indicators, life table, similar to homework</p>
+</section>
+</section>
+<section id="session-7" class="level1">
+<h1>Session 7</h1>
+<section id="period-tfr-vs.-ccf" class="level2">
+<h2 class="anchored" data-anchor-id="period-tfr-vs.-ccf">Period TFR vs.&nbsp;CCF</h2>
+<section id="why-would-the-period-tfr-change" class="level3">
+<h3 class="anchored" data-anchor-id="why-would-the-period-tfr-change">Why would the period TFR change?</h3>
+<ul>
+<li><p>Quantum Effect</p>
+<ul>
+<li><p>= changes in the total #children born per woman</p></li>
+<li><p>change in complete family size</p></li>
+</ul></li>
+<li><p>Tempo Effect</p>
+<ul>
+<li>= changes in timing of childbearing when CCF rates remain constant</li>
+</ul></li>
+</ul>
 
 
 </section>
