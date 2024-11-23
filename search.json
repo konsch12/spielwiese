@@ -1,185 +1,643 @@
 [
   {
-    "objectID": "basic methods.html",
-    "href": "basic methods.html",
-    "title": "Basic Methods of Demographic Analysis",
+    "objectID": "migration lecture.html",
+    "href": "migration lecture.html",
+    "title": "Migration lecture",
     "section": "",
-    "text": "Preston et al. p.2: “Demography is one of the social science disciplines where micro- and macro-level analyses find perhaps their most complete and satisfactory articulation.”\n\nPopulation structure by age and sex\nMultidimensional: education, area of residence and ethnicity\n\n\n\nEndogenous Mechanisms:\n\nBirth\nDeath\n\nExogenous Mechanisms:\n\nIn-migration\nOut-migration\n\nPopulation stock = size and composition of a given population at given point in time\nPopulation flows:\n\n\n\nEvents\nProcesses\n\n\n\n\nBirths\nFertility\n\n\nDeaths\nMortality\n\n\nMarriages\nNuptiality\n\n\nIn/out migration\nMigration\n\n\n\n\n\n\n\n\n\n\n\n\n\nBalancing Equation\n\n\n\n\\[\nN(T) = N(0) = B[0, T] - D[0, T] + I[0, T] - O[0, T]\n\\]\n\n\n\\(N(T)\\) = #person alive in population at time \\(T\\)\n\\(N(0)\\) = #person alive in population at time \\(0\\)\n\\(B[0, T]\\) = #births in pop. between time \\(0\\) and \\(T\\)\n\\(D[0, T]\\) = #deaths in pop. between time \\(0\\) and \\(T\\)\n\\(I[0, T]\\) = #in-migrations between time \\(0\\) and \\(T\\)\n\\(O[0, T]\\) = #out-migrations between time \\(0\\) and \\(T\\)\n\n\n\n\n\n\nDefinitions\n\n\n\nNatural increase/decrease = \\(B[0, T] - D[0, T]\\)\nNet migration = \\(I[0, T] - O[0, T]\\)\n\n\n\nComprehensive\nExact\nUsed for indirect estimation of net-migration\n\n\n\n\n\nCount number of occurrences\n\nimpractical\nheavily influenced by #people who are at risk of experiencing the event (e.g: increasing population size)\n\nVital events\n\nbirths, death, marriages, in/out-migration\n\nDemographic Data\n\nparish records, civil registration, census, sample surveys\n\nCombining flows to population stocks\n\ne.g: #deaths per 100 people\n\n\n\n\n\nnot all members equally exposed\nfrequency of occurrence higher the longer the exposure\nPYL = sum of each individuals time at risk of experiencing an event\n\n\n\n\nDiscrete time:\n\\[\nPYL[0, T] = \\sum_{t = 0}^T{N_t\\Delta t}\n\\]\nContinuous time:\n\\[\nPYL[0, T] = \\int_{t = 0}^T{N_t dt}\n\\]\n\n\n\n= demographic rate is an indicator that properly relates the frequency of an event to the size of population exposed to the event\n\\[\nRate = \\frac{\\# \\text{occurrences [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Death Rate:\n\\[\nCDR[0, T] = \\frac{\\# \\text{deaths [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Birth Rate: \\[\nCBR[0, T] = \\frac{\\# \\text{births [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude In-Migration Rate: \\[\nCRIM[0, T] = \\frac{\\# \\text{in-migrations [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPYL Approximation\n\n\n\nMidyear method:\n\\[\nPYL = N_{mid} * T\n\\]\nAverage population method:\n\\[\nPYL(0, T) = \\frac{N(T) + N(0)}{2} * T\n\\]"
+    "text": "Individual\n\nimprovement, adaptation\n\nCities, regions, countries\n\nfuture size, needs & characteristics\ndepopulation\nbrain drain/gain\nsize of labour force\nintegration issues\n\nGlobal development\n\ntransfer of manpower and skills\ngreater occupational specialization\nneeded knowledge for global growth\nhigher overall economic productivity\n\n\n\n\n\n\n\nDefinitions:\n\n\n\nClosed population = population without migration flows, only births and deaths\nOpen population = affected by births, deaths, immigration and emigration\nPopulation change = natural increase + net migration\nNet migration = immigration - emigration\n\n\n\n\n\n\nchange in size of population\nmigrants may have different mortality and fertility rates\ndifferent characteristics: age structure, sex ratio, education\n\n\n\n\nA universally accepted definition of a migrant does not exist at international level. (country of birth, citizenship, past addresses, etc.)\n\n\n\n\n\n\nDefinition of Migration according to IOM:\n\n\n\nMigration is the movement of persons away from their place of usual residence, either across an international border or within a state, to a new residence.\n\n\n\n\n\n\n\n\nUN Definition of usual place of residence\n\n\n\nThe place at which the person lives at the time of the census and has been there for some time and intends to stay there for some time.\n\n\nUN recommends a threshold of 12 months when considering place of usual residence.\n\n\n\n\n\n\nDefinition of migration (Yusuf et al. 2014)\n\n\n\nSpatial movement of a person which requires:\n\na change in place\ninvolves crossing political/administrative border\n\n\n\n\n\n\n????\n\n\n\n\n\n\nVoluntary migration\n\n\n\nvoluntary migration = whether the migrant has a choice whether or not to migrate and where to migrate\ne.g: labour, family, students, irregular\n\n\n\n\n\n\n\n\nForced migration\n\n\n\nforced migration = when people are obliged to flee or to leave their homes or places of habitual residence because of a conflict, disaster etc.\ne.g: refugees, asylum seekers displaced persons, environmental migrants, trafficking\n\n\nrefugee = person who fled their country or ????\nasylum seeker = seeking international protection ???\nForms/types of migration\n\nborder: international, internal\nduration: long term, short term\norder: regular irregular displacement (forced)\nreason: economic, political, environmental, family etc.\n\nInternal migrant\n= moves from a residence in one state/province/district etc. across a border\n????\nout-migrant/ in-migrant\ninternational migration ????\nimmigrant/emigration\n\n\n\n\n\n\n???? definitions\n\n\n\n\n\n\n\n\n\nMobility\n\n\n\nmobility = refers to the transitory movements of people in the course of their everyday lives\n\n\nmigration = permanent change of residence\n\n\n\n\n\n\n\n\n\nOrder (IOM, 2021)\n\n\n\nregular = occurs in compliance with laws of the country of origin, transit, and destination\nirregular = movement takes place outside the laws, regulations and international agreements, includes refugees, victims of trafficking unaccompanied migrant children\ndisplacement (forced) = movement of persons have been forced or obliged to flee in order to avoid the effects of armed conflict, situations of generalized violence, human rights violations, natural human-made disasters\n\n\n\n\n\n\neducation\nwork\nfamily\nasylum\n\nSocio-economic migration = movement of people to benefit from greater economic opportunities\nIn 2017 2/3 of international migrants are migrant workers, 70% live in high-income countries\nPolitical migrants = forced to migrate because of (civil) war, state policies which discriminate, opression\nhumanitarian refugees =\nEnvironmental migrant = forced to leave for reasons of sudden or progressive changes in the environment, which affect lives and living conditions\ntrapped popilation =\nfamily reunification\n\n\n\nstocks = #total international migrants living in a country at a particular point in time\nflow =",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "basic methods.html#population-growth-rates",
-    "href": "basic methods.html#population-growth-rates",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Population Growth Rates",
-    "text": "Population Growth Rates\n\nInstantaneous Growth Rate\n\n\n\n\n\n\nDefinition\n\n\n\nInstantaneous growth rate = crude growth rate at a point in time or in very tiny interval of time\n\n\n\n\n\n\n\n\nImportant\n\n\n\n\\[\nr(t) = \\frac{dN(t)}{dt} * \\frac{1}{N(t)} = \\frac{dln(N(t))}{dt}\n\\] This represents the fraction by which a population would grow during a tiny period of time.\n\n\n\n\nExponential Growth Model\n\n\n\n\n\n\nExponential growth model\n\n\n\n\\[N(t) = N(0)e^{\\int_0^T{r(t)dt}}\\]\nFor constant \\(r(t)\\) between 0 and T at \\(r^{*}\\): \\[N(t) = N(0)e^{Tr^{*}}\\]\n\n\n\n\n\n\n\n\nConstant growth assumption\n\n\n\nAssumption: \\(r(t) = r^*\\)\n\\[ r^* = ln(\\frac{N(T)}{N(0)}) * \\frac{1}{T}\\]\n\n\nIn a closed population -> constant change in RNI\n\\(r^* = ln(1 + \\frac{B(t)-D(t)}{N(0)}) * \\frac{1}{T}\\)\n\n\nDoubling Time\nThe time it would take for a population to double in size at a given growth rate, assuming the exponential model holds.\n\n\n\n\n\n\nDoubling time\n\n\n\n\\[\nT_{double} = ln(2) * \\frac{1}{r^*}\n\\]"
-  },
-  {
-    "objectID": "basic methods.html#estimating-period-pyl",
-    "href": "basic methods.html#estimating-period-pyl",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Estimating Period PYL",
-    "text": "Estimating Period PYL\nEstimating PYL under constant exponential growth rate assumption.\n\n\n\n\n\n\nPYL (constant growth)\n\n\n\n\\[\nPYL(0,T) = \\frac{N(T) - N(0)}{r^*}\n\\]\n\n\n\nLimitations of midyear approach\n\nIf N(t) is linear -> good approximation => use for short time intervals\nUnder constant exponential growth rate assumption -> underestimation"
-  },
-  {
-    "objectID": "basic methods.html#problems-of-crude-rates",
-    "href": "basic methods.html#problems-of-crude-rates",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Problems of Crude Rates",
-    "text": "Problems of Crude Rates\n\nViolate principle of correspondence\n\nloose connection between risk of occurrence and exposure\n\nToo “crude” to compare demographic experiences among populations\n\ndoes not take population structure into account\n=> differences in demographic composition greatly influence principal crude rates\n\n\n\nAge-Specific Rates\n\n\n\n\n\n\nAge-specific death rate\n\n\n\nSingle ages:\n\\[\nASDR_x[0, T] = \\frac{\\# \\text{deaths of people age x years [0, T]}}{PYL_x[0, T]}\n\\]\n\\[\nM_x = \\frac{D_x}{PYL_x}\n\\]\nAge groups of size \\(n\\), \\([x, x + n)\\):\n\\[\nnM_x[0, T] = \\frac{nD_x}{nPYL_x}\n\\]\n\n\n\n\nCrude Death Rate\nCDR is the sum of ASDR weighted by the proportionate age distribution of the population.\n\n\n\n\n\n\nCDR expressed as sum of ASDRs\n\n\n\n\\[\nCDR = \\sum{ASDR_i*c_i}\n\\]\nwhere \\(\\sum{c_i} = 1\\)"
-  },
-  {
-    "objectID": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
-    "href": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Minimizing the confounding effect of age composition",
-    "text": "Minimizing the confounding effect of age composition\n\nAge Specific Rates\n\nensures comparability among populations from within a specific age-group (despite different age-structures)\nhard to summarize or interpret\n\n\n\nAge Standardization\n\nAsses impact of ASDR based on age structure of a standard population\nASDR of a population is weighted by proportionate age distribution of a standard population\n\n\n\n\n\n\n\nASCDR\n\n\n\n\\[\nASCDR^j = \\sum_{i = 1}^{\\infty}{M^j_iC^s_i}\n\\]\n\\(M_s^j\\) = age-specific death rates in population j\n\\(C_i^s\\) = age-specific population weights of the standard population\n\n\n\nWhich population as standard?\n\nOne of the comparing populations\n\nnot recommended, different results for different standards\n\nAverage of the two population compositions\n\n\\(C_i^s = \\frac{C^B_i + C^A_i}{2}\\)\n\nWhen comparing more than 2 populations:\n\nUse standard close to mean or median of population structures\nUse regional age-structure"
-  },
-  {
-    "objectID": "basic methods.html#indirect-standardization",
-    "href": "basic methods.html#indirect-standardization",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Indirect Standardization",
-    "text": "Indirect Standardization\n\nStandardized Comparative Mortality Ratio\nSummary measure to compare the death rates in two populations whilst accounting for different population distributions\n\ndata on ASDR unavailable/fluctuating\nsmall populations\n\n\n\n\n\n\n\nDefinition\n\n\n\nSMR = the ratio of the actual number of deaths in population \\(A\\) to the expected number based on the age-specific death rates of the standard population\n\n\n\n\n\n\n\n\nSMR\n\n\n\n\\[\nSMR = \\frac{\\sum_i{D_i^A}}{\\sum_i{M^S_iN_i^A}}\n\\]\nIf \\(SMR < 1\\), \\(M_iS > M^A_i\\)."
-  },
-  {
-    "objectID": "basic methods.html#period-vs.-cohort-approach",
-    "href": "basic methods.html#period-vs.-cohort-approach",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Period vs. Cohort Approach",
-    "text": "Period vs. Cohort Approach\n\nPeriod Approach\nAdvantages:\n\nreadily available data\neasy to interpret\n\nDisadvantages:\n\nviolate the principle of correspondence\ndoes not reflect experience of real group of people\n\n\n\nCohort Approach\n\nreal group of people who experience demographic events during a specific time interval, e.g: marriage cohort, school cohort, …\nBirth cohort = real group of people sharing the same birth date\n\nCohort rate: \\(cohort rate = [x, x+n] = \\frac{\\# \\text{events in the cohort [x, x+n]}}{\\text{PYL in the cohirt [x, x+n]}}\\)\n\nProbability\n= chance that some event will occur, not rate at which it occurs\n\\(Probability = \\frac{\\#Occurrences}{\\# \\text{preceeding events or trials}}\\)\n\\(nqx^c = \\frac{\\#\\text{Occurrences in cohort c [x, x+n]}}{\\# \\text{persons in the cohort reaching age. x}}\\)\n\n\n\nThe Identification Problem\nMeasures base on the cohort and period approaches are interlinked: Period = Age + Cohort\n\nHow do we measure age?\n\nExact age\n\nexact number in years, months and days\nrarely used\n\nAge reached during the year\n\nremains constant during the whole calendar year\n\nAge reached last birth day/age in complete years\n\nremains constant until next birthday\n\n\n=> disparity between age reached during year and age last birthday"
-  },
-  {
-    "objectID": "basic methods.html#lexis-diagram",
-    "href": "basic methods.html#lexis-diagram",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Lexis Diagram",
-    "text": "Lexis Diagram\n\nLife Lines\n\neach person in LD has a life line\ndiagonal (45°) line\nstarts at birth, ends at death\n\n\n\nWays of Classifying Events\n\nAge-Period Classification\n\nClassification according to age and calendar time\nAge in completed years\nCorresponds to two different cohorts\nRectangle\n\n\n\nA - exposure/events by those who reached age 3 in the previous year\nB - reach age 3 in the calendar year\n\n\n\nAge-Cohort Classification\n\ngrouped together by age in completed years and within the same birth cohort\nparallelogram, two horizontal lines (ages), two 45° lines (cohort)\ncounting events will stretch over two calendar years\nPeriod = Cohort + age\n\n\n\n\nPeriod-Cohort Classification\n\nevents/exposure occurred in a given calendar year and within a given cohort\nparallelogram, two vertical lines (period), two 45° lines (cohort)\nAge reached = period - cohort\nCohort will reach age x on average halfway through the period\n\n\nSummary:"
-  },
-  {
-    "objectID": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
-    "href": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Person-time at risk in the Lexis Diagram",
-    "text": "Person-time at risk in the Lexis Diagram\n\\(C\\) …. cohort\n\\(x\\) …. age\n\\(t\\) … period\nA-P: \\(PYL^t_{[x, x+1]} = \\frac{P^t_{[x, x + 1 ]} + P^{t + 1}_{[x, x+ 1]}}{2}\\)\nA-C: \\(PYL^{C}_{[1, 2)} = \\frac{P^C_x + P^C_{x+1}}{2} = P^{t+1}_{[x, x+ 1]}\\)\nC-P: \\(PYL^C_y = \\frac{P^c_t + P^c_{t+1}}{2}\\)"
-  },
-  {
-    "objectID": "basic methods.html#infant-mortality-rate",
-    "href": "basic methods.html#infant-mortality-rate",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Infant Mortality Rate",
-    "text": "Infant Mortality Rate\nIMR is a period measure, concerns children <1y.\n\n\n\n\n\n\nIMR\n\n\n\n\\[\nIMR = \\frac{\\# \\text{Deaths under age 1 in year t}}{\\# \\text{live births in year t}}\n\\]\n\n\n\nneither rate nor probability (principle of correspondence)\n\nwill equal to the probability of dying before age 1 for the cohort born in year t if \\(pD_0^t = PD_0^{t + 1}\\)."
-  },
-  {
-    "objectID": "basic methods.html#life-tables",
-    "href": "basic methods.html#life-tables",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Life Tables",
-    "text": "Life Tables\n\nage-specific mortaliy experience of a cohort\nderived by following birth cohort through life, tabulated proportion of surviving\ncan be used to study any kind of failure process\n\nunambigious starting point\nfailure is unambigious event with clear location in ti,e\nprocess measured in time, varying with age/other duration measure\n\n\n\nSingle Decrement Life Table\n\nsingle, universal\nunidirectional transition\nALIVE -> DEAD\n\n\n\nMultiple Decrement Life Table\n\nmore than one transition possible\ncompeting risks, only one cause of death\nALIVE -> CAUSE A/ CAUSE B/ CAUSE C\n\n\n\nMulti-State and increment-decrement life table\n\nrecurring event\n\n\n\n\nCohort vs. Period Life tables\n\nCohort: traces experience of an actual cohort of newborn babies through entire life\nPeriod: cohort data outdated/unavailable, follow-up loss => synthetic cohort rate used"
-  },
-  {
-    "objectID": "basic methods.html#columns-of-a-life-table",
-    "href": "basic methods.html#columns-of-a-life-table",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Columns of a life table",
-    "text": "Columns of a life table\n\n\\(l_x\\) = #survivors to age x\n\\(nd_x\\) = #dying in the age interval\n\\(np_x\\) = survival probability in the interval\n\\(nq_x\\) = probability of dying in the interval\n\\(na_x\\) = average years lived by those dying in the interval\n\\(nL_x\\) = PYL in the interval\n\\(T_x\\) = total PYL above age x\n\\(e_x\\) = remaining life expectancy\n\n\n\n\n\n\n\nLife Table Formulas COHORT\n\n\n\n\\(nd_x = l_x - l_{x+n}\\)\n\\(np_x = \\frac{l_{x + n}}{l_x}\\)\n\\(nq_x = 1 - np_x = \\frac{nd_x}{l_x}\\)\n\\(nL_x = n * l_{x +n} + \\sum{A_i}\\)"
-  },
-  {
-    "objectID": "basic methods.html#period-life-table",
-    "href": "basic methods.html#period-life-table",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Period Life Table",
-    "text": "Period Life Table\nSolution 1: computing q-type rates for each cohort who reach age x in year t => Assumption: AP = AC\nLimitation: data availability on \\(l_x\\)\n\n\\(nM_X\\) -> \\(nq_x\\) conversion\nBasic assumption: \\(nm_x = nM_x\\)\n\n\n\n\n\n\nPeriod Life Table Formulas\n\n\n\n\\(nM_x = \\frac{nD_x}{PYL}\\)\n\\(nm_x = \\frac{nd_x}{nL_x}\\)\n\\(nq_x = \\frac{n* nm_x}{1 + (n - na_x)nm_x}\\)\n\\(L_x = n * l_{x + n} + na_x * nd_x\\)\n\\(L_{last} = l_{last}/M_{last}\\)\n\\(T_x = \\sum_{x}^{\\infty}{L_x}\\)\n\\(e_x = \\frac{T_x}{l_x}\\)\n\n\n\n\nChoosing \\(na_x\\)\n\nDirect observation: rarely available, influenced by age distribution\nGraduation of \\(nm_x\\) function: observing level and slope of curve\nRule of Thumb\n\nDeaths on average halfway through the interval\n\n\\(na_x = \\frac{n}{2}\\)\n\nConstant \\(nm_x\\) in the interval\n\n\\(na_x < \\frac{n}{2}\\)\n\n\nBorrowing from another population\n\n\n\n\\(na_x\\) for the very young ages\n\n\n\nOpen-ended age interval\n\n\n\n\n\n\nImportant\n\n\n\n\\(\\infty q_x = 1\\)\n\\(\\infty a_x = \\frac{1}{\\infty m_x}\\)\n\\(\\infty L_x = \\frac{\\infty d_x}{\\infty m_x}\\) ???\n\n\n\n\nAggregating \\(e_0\\)\n\nAveraging procedure:\n\nweighted average of county-level LE\nweights can be relative population size\n\nMerging procedure\n\nmerging deaths and exposure to risk in larger units\nrecommended\n\n\n\n\nDecomposing a difference in LE\nsee Preston et al. p. 64/65"
-  },
-  {
-    "objectID": "basic methods.html#fertility-and-reproduction",
-    "href": "basic methods.html#fertility-and-reproduction",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Fertility and Reproduction",
-    "text": "Fertility and Reproduction\n\n\n\n\n\n\nDefinitions\n\n\n\nFertility = incremental process whereby members of a population create new members through births\nReproduction = process whereby new members of a population replace the previous generation of women, involves mortality and fertility\nBirth order = rank of a birth according to #previous births to the mother\nParity = #live births the woman has had\nFecundity = physiological capability to produce a live birth\nFecundability = monthly probability of conception in the absence of contraception or temporary infertility\n\n\n\nProblems with Fertility Analysis\n\nrepeated events\nrisk of experiencing a birth is not universal among female population\n\nphysiological or medical reasons\n\nvaries with age\n\nindividual/household choice\n\ncontraceptives, sexual activity, abortion, relationship status\n\nsocially regulated\n\nculture/social norms\n\n\n\n\n\nPeriod Indicators\n\n\n\n\n\n\nPeriod Indicators\n\n\n\n\\(CBR[0, T] = \\frac{\\# \\text{births [0, T]}}{PYL[0, T]} * 1000\\)\n\\(GFR = \\frac{\\# \\text{births [0, T]}}{\\text{PYL by women of childbearing age [0, T]}}\\)\n\\(ASFR_x = \\frac{\\# \\text{births at age x}}{\\text{Female PYL at age x}}\\)\n\\(ASCBR[0, T] = \\sum_{i = 1}^I{ASFR_i * C_i^S}\\)\n\\(C_i^S\\) … share of total PYL lived by women in i-th age group\n\\(TFR[0, T] = n * \\sum_{i = 1}^I{ASFR_i[0, T]}\\)\n\n\n\nGFR instead of CBR: denominator matches better\nProblems with CBR/GFR: do not account for age structure -> Age standardization\nTFR\n\nmost widely used age-standardized summary indicator\n= average #children a women would bear if she survived through the end of reproductive age span and experienced a particular fertility schedule at each age\nindependent of variability in age structure"
-  },
-  {
-    "objectID": "basic methods.html#fertility-and-reproduction-1",
-    "href": "basic methods.html#fertility-and-reproduction-1",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Fertility and Reproduction",
-    "text": "Fertility and Reproduction\n\n\n\n\n\n\nDefinitions\n\n\n\nCompleted cohort fertility = completed family size = actual average number of childrenthat women of a real cohort do haveby the end of their childbearing years\nPeriod TFR = average number of children who would be born to a hypothetical cohort of women\n\n\nCohort assumptions:\n\nthey had all survived to the end of their reproductive period\nhad the same rate of childbearing at each age as the women who survived\n\nPeriod assumptions:\n\nif they had all survived to the end of their reproductive period\nbear children at each age at the rate observed during a particular period\n\n\nReproductive measures\n\nTFR > 2.1 -> population is growing\nTFR < 2.1 -> population\n\nTFR as growth indicator ignores two factors: sex ratio and mortality\nComparing the sizes of successive generations (comparing #daughters and #mothers) -> ASFR using female births\n\\[\nnF_x^f = \\frac{\\# \\text{female births to women age }[x, x + n]}{\\text{PYL of women age }[x, x + n]}\n\\]\n\nGross and Net Reproduction Rate\n\n\n\n\n\n\nDefinitions\n\n\n\nGRR = number of daughters an average women would have if she lived through the end of their reproductive span\nNRR = total number of daughter each member of a birth cohort of women produce during their reproduction life span if they were subject to the observed ASFR and ASMR\n\n\n\nNRR is simply GRR adjusted or mortality\nNRR measures size of the next generation compared to present one\n\nGRR and NRR:\n\\(l_0\\) = original size of the women birth cohort\n\\(nL_x^f\\) = PYL by members of the cohort of women in age interval \\([x, x+n]\\)\n\\(nF_x^f * nL_x^f\\) = number of daughters born to between \\([x,x+n]\\) to a birth cohort of women\nNo Mortality:\nAverage number of daughters born to a cohort of size \\(l_0\\):\n\\[\nGRR = n * \\sum{nF_x^f}\n\\]\nAdjusting for Mortality:\nAverage number of daughters born to a cohort of size \\(l_0\\): \\[ NRR = \\frac{\\sum{F_i^F * nL_x^f}}{l_0}\\]\n\n\nInterpretation of NRR\n\nIf NRR > 1, cohort of girls will replace a bigger cohort of daughters than themselves\nIf NRR = 1, the next generation will be exactly the same size as the present one\nIf NRR < 1, implies that each generation is smaller than the previous generation, so the population will decline from natural decline across the generations\n\n\n\n\n\n\n\nNote\n\n\n\nThe stable population assumption is crucial when interpreting the NRR, meaning it is assumed that the structure of a population does not change over time.\n\nConstant fertility and mortality rates: age-specific rates stay the same over time\nunchanging age composition\n\n\n\n\n\n\nParity Progression Ratio\nThe parity progression ratio measures proportion of women with \\(n\\) children who go on to have \\(n+1\\) children.\n\ncompleted family size among a cohort of women\npattern of fertility-limiting behaviour in a population\n\n\nCalculating PRR\n\n\n\n\n\n\nDefinition\n\n\n\nPPR = proportion of a cohort who had least \\(j\\) live births and went on to have at least one more.\n\n\n\\(W\\) … original cohort size\n\\(W_j\\) … #women at parity \\(i\\)\n\\(W = \\sum_{j = 0}^{I}{W_j}\\)\n\\(P_j\\) … #women at parity \\(j\\) or more\n\\(P_j = \\sum_{a= j}^{I}{W_a}\\)\n\n\n\n\n\n\nPPR\n\n\n\n\\[ PRR_{j, j+1} = \\frac{\\text{Women at Parity j + 1 or more }}{\\text{Women at Parity j or more}} = \\frac{P_{j+1}}{P_j} = a_j\\]\n\n\n\n\n\nCompleted cohort fertility\n\n\n\n\n\n\nCCF\n\n\n\n\\[\nCCF = \\sum_{i = 1}{PPR(0,i)}\n\\]\n\n\n\n\nOrder Specific TFR\nBirth order refers to the rank of a birth according to the number of previous births to the mother.\n\\[\nF_{i, j, t} = \\frac{\\# \\text{births of order j to women in age group i}}{\\text{PYL of women age i in a given year t}}\n\\]\n\n\n\n\n\n\nOrder Specific TFR\n\n\n\n\\[\nTFR_{j,t} = n * \\sum_{i = 1}^I{F_{i,j, t}}\n\\]\n\\(i\\) … age interval\n\\(j\\) … order of birth"
-  },
-  {
-    "objectID": "basic methods.html#exam-info",
-    "href": "basic methods.html#exam-info",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Exam Info",
-    "text": "Exam Info\n2 sections\nshort essays about basic concepts, definitions, simple data for calculations, e.g: limitations of crude rates\nreal data, like Sweden case, summary indicators, life table, similar to homework"
-  },
-  {
-    "objectID": "basic methods.html#period-tfr-vs.-ccf",
-    "href": "basic methods.html#period-tfr-vs.-ccf",
-    "title": "Basic Methods of Demographic Analysis",
-    "section": "Period TFR vs. CCF",
-    "text": "Period TFR vs. CCF\n\nWhy would the period TFR change?\n\nQuantum Effect\n\n= changes in the total #children born per woman\nchange in complete family size\n\nTempo Effect\n\n= changes in timing of childbearing when CCF rates remain constant"
-  },
-  {
-    "objectID": "fertility.html",
-    "href": "fertility.html",
-    "title": "Fertility and Family",
+    "objectID": "migration lecture.html#lecture-1",
+    "href": "migration lecture.html#lecture-1",
+    "title": "Migration lecture",
     "section": "",
-    "text": "life expectancy = number of years to live in a fictive cohort\nTFR = number of children per woman in a fictive cohort\nLexis diagramm"
+    "text": "Individual\n\nimprovement, adaptation\n\nCities, regions, countries\n\nfuture size, needs & characteristics\ndepopulation\nbrain drain/gain\nsize of labour force\nintegration issues\n\nGlobal development\n\ntransfer of manpower and skills\ngreater occupational specialization\nneeded knowledge for global growth\nhigher overall economic productivity\n\n\n\n\n\n\n\nDefinitions:\n\n\n\nClosed population = population without migration flows, only births and deaths\nOpen population = affected by births, deaths, immigration and emigration\nPopulation change = natural increase + net migration\nNet migration = immigration - emigration\n\n\n\n\n\n\nchange in size of population\nmigrants may have different mortality and fertility rates\ndifferent characteristics: age structure, sex ratio, education\n\n\n\n\nA universally accepted definition of a migrant does not exist at international level. (country of birth, citizenship, past addresses, etc.)\n\n\n\n\n\n\nDefinition of Migration according to IOM:\n\n\n\nMigration is the movement of persons away from their place of usual residence, either across an international border or within a state, to a new residence.\n\n\n\n\n\n\n\n\nUN Definition of usual place of residence\n\n\n\nThe place at which the person lives at the time of the census and has been there for some time and intends to stay there for some time.\n\n\nUN recommends a threshold of 12 months when considering place of usual residence.\n\n\n\n\n\n\nDefinition of migration (Yusuf et al. 2014)\n\n\n\nSpatial movement of a person which requires:\n\na change in place\ninvolves crossing political/administrative border\n\n\n\n\n\n\n????\n\n\n\n\n\n\nVoluntary migration\n\n\n\nvoluntary migration = whether the migrant has a choice whether or not to migrate and where to migrate\ne.g: labour, family, students, irregular\n\n\n\n\n\n\n\n\nForced migration\n\n\n\nforced migration = when people are obliged to flee or to leave their homes or places of habitual residence because of a conflict, disaster etc.\ne.g: refugees, asylum seekers displaced persons, environmental migrants, trafficking\n\n\nrefugee = person who fled their country or ????\nasylum seeker = seeking international protection ???\nForms/types of migration\n\nborder: international, internal\nduration: long term, short term\norder: regular irregular displacement (forced)\nreason: economic, political, environmental, family etc.\n\nInternal migrant\n= moves from a residence in one state/province/district etc. across a border\n????\nout-migrant/ in-migrant\ninternational migration ????\nimmigrant/emigration\n\n\n\n\n\n\n???? definitions\n\n\n\n\n\n\n\n\n\nMobility\n\n\n\nmobility = refers to the transitory movements of people in the course of their everyday lives\n\n\nmigration = permanent change of residence\n\n\n\n\n\n\n\n\n\nOrder (IOM, 2021)\n\n\n\nregular = occurs in compliance with laws of the country of origin, transit, and destination\nirregular = movement takes place outside the laws, regulations and international agreements, includes refugees, victims of trafficking unaccompanied migrant children\ndisplacement (forced) = movement of persons have been forced or obliged to flee in order to avoid the effects of armed conflict, situations of generalized violence, human rights violations, natural human-made disasters\n\n\n\n\n\n\neducation\nwork\nfamily\nasylum\n\nSocio-economic migration = movement of people to benefit from greater economic opportunities\nIn 2017 2/3 of international migrants are migrant workers, 70% live in high-income countries\nPolitical migrants = forced to migrate because of (civil) war, state policies which discriminate, opression\nhumanitarian refugees =\nEnvironmental migrant = forced to leave for reasons of sudden or progressive changes in the environment, which affect lives and living conditions\ntrapped popilation =\nfamily reunification\n\n\n\nstocks = #total international migrants living in a country at a particular point in time\nflow =",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#fertility-transition-across-world-regions",
-    "href": "fertility.html#fertility-transition-across-world-regions",
-    "title": "Fertility and Family",
-    "section": "Fertility transition across world regions",
-    "text": "Fertility transition across world regions\n\nPeriod fertility measures\nCrude birth rate: number of births per thousand persons in a given population within a given year\n\\[CBR = \\frac{\\text{births in year y}}{\\text{population in year y}} * 1000 = \\frac{B}{P} * 1000\\]\nGeneral fertility rate: number of births per thousand women of ‘reproductive age’ in a given population, within a given year\n\\[ GFR = \\frac{\\text{births in year y}}{\\text{women age 15-49 in year y}} * 1000 = \\frac{B}{\\sum_{x = 15}^{49}{W_x}} * 1000\\]\nAge-specific fertility rates : number of births per thousand women of a given age \\(x\\), in a given population in a given year\n\\[ ASFR_x = \\frac{\\text{births at age x}}{\\text{women of age x at risk}} * 1000 \\]\nUsing age groups of size \\(n\\), over a period \\(p\\)\n\\[ASFR_{[x, x+n], p} = \\frac{B_{[x,x+n], p}}{W_{[x,x+n], p}}* 1000\\]\nTotal fertility rate : fertility level standardized per age, number of children per woman, births occurring in the course of one year, standardized for age. Corresponds to one woman who has the average number of children of each age across all her reproductive life.\nSingle Ages: \\[TFR = \\sum_{x = 15}^{49}{\\frac{ASFR_x}{1000}} = \\sum_x{\\frac{B_x}{W_x}}\\] Age Groups of size \\(n\\): \\[TFR = \\sum_{x = 15, 20, ...}^{49}{\\frac{ASFR_{[x, x + n]}*n}{1000}}\\]"
+    "objectID": "migration lecture.html#theories-of-international-migration",
+    "href": "migration lecture.html#theories-of-international-migration",
+    "title": "Migration lecture",
+    "section": "Theories of international Migration",
+    "text": "Theories of international Migration\n\nno single coherent theory of international migration\nearly theories are from the study of internal migration\nfocus on interconnectedness of the levels of analysis\nsome theories address some types of migration\nmost theories are more applicable to explain voluntary migration\nrecent focus on individual agency and meso level theories -&gt; connect individual actors within social networks\nmigration aspirations vs. their translation into behaviour\nthree main levels of analysis\n\nmacro level: insititutional factor\nmeso-level networks, communities\nmicro level indivfoufal, household",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#proximate-determinants-of-total-de",
-    "href": "fertility.html#proximate-determinants-of-total-de",
-    "title": "Fertility and Family",
-    "section": "Proximate determinants of Total de",
-    "text": "Proximate determinants of Total de"
+    "objectID": "migration lecture.html#ravensteins-laws-of-migration-1885",
+    "href": "migration lecture.html#ravensteins-laws-of-migration-1885",
+    "title": "Migration lecture",
+    "section": "Ravenstein’s laws of Migration (1885)",
+    "text": "Ravenstein’s laws of Migration (1885)\nexplain dynamics of human movements across space\n\nMigrants move only a short distance\nprocess of absorption, whereby people immediately surrounding a rapidly growing town move into and the gaps they leave are filled by migrants from more distant areas, continues until attractive force (pull factors) are spent.\nprocess of dispersion\neach migration flow produces a compensating counter flow\nlong-distance migrants go to one of the great centres of commerce and industry\nnatives of towns are less migratory than those from rural areas\nfemales are more migratory than males\neconomic factors are the main cause of migration",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#correction-of-the-homework",
-    "href": "fertility.html#correction-of-the-homework",
-    "title": "Fertility and Family",
-    "section": "Correction of the homework",
-    "text": "Correction of the homework\n\nGFR only women of reproductive age rate in the denominator\ndoes not account for age structure -> standardization\n\\(GFR = \\sum_{a}{p_a * b_a}\\)\nTwo types of standardization\n\ncan use average population or average rate for standardization -> see excel file of HW 5."
+    "objectID": "migration lecture.html#distance-and-migration",
+    "href": "migration lecture.html#distance-and-migration",
+    "title": "Migration lecture",
+    "section": "Distance and migration",
+    "text": "Distance and migration\n1)\n\ngravity model of migration\nfor any form of spatial interaction, flows are positively related to stocks and inversely ralted to distance\n-&gt; vast majority only move short distances\n-&gt; distance of movement in\n\n\n5)\n?????",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#recent-family-trends",
-    "href": "fertility.html#recent-family-trends",
-    "title": "Fertility and Family",
-    "section": "Recent Family Trends",
-    "text": "Recent Family Trends\n\nStates and Transitions\n???? Diagram Marriage\nrelevant to family/not relevant to family"
+    "objectID": "migration lecture.html#step-wise-process-of-migration",
+    "href": "migration lecture.html#step-wise-process-of-migration",
+    "title": "Migration lecture",
+    "section": "Step-wise process of migration",
+    "text": "Step-wise process of migration\n\nmigration happens step by step, gradual process\noften first move internally to urban areas\nmigration through transit countries\n\n\nPush factors:\npoverty, environmental factors, conflict, economic uncertainty, market conditions, politically unsafe, lack of social care policies (childcare, medical system), education\n\n\nPull factors:\nemployment, education, family reunification, weather/climate preferences, political stability, land availability (housing), culture/lifestyle, healthcare, dating opportunities\n-&gt; often inverse of another\n-&gt; often combination of factors lead to actual move",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#changes-in-fertility-since-the-1970s",
-    "href": "fertility.html#changes-in-fertility-since-the-1970s",
-    "title": "Fertility and Family",
-    "section": "Changes in fertility since the 1970s",
-    "text": "Changes in fertility since the 1970s\n\nChange in Divorce\n\nDivorce Rates\n\nEurope: increase until mid-2000s, then stabilized\nLatin America: depends on country, limited levels\nMENA: high divorce levels in the past, dropped at the end of 20th century -> many arranged marriages, relationship now less hierarchical\n\n\n\nEducational Gradient\n\n1970s - 1990s (start of SDT) : larger separation risks among highly educated\nrecently gradient weakened and in some countries lower educated largest divorce rates\n-> consider unmarried union dissolution, less people married, more people cohabiting -> leave before marriage\nthose who reach marriage are more stable\n\n\n\nDivorces per 1000 women, US\n???? graphs\n\ndecrease of divorce rate at earlier ages, increase at later ages\nwhen controlling for #marriages and age structure => increasing divorce rates\nbecause of shift to the right -> appears to be stabilizing\nmarried later => divorced later\n\n??? graphs\nred, nuptiality -> less people getting married, less risk of divorce\nDecrease in divorce risk -> due to later marriage, unmarried cohabiting\nSelection effect: e.g: being religious (less likely to divorce, but more likely to marry)\nIndicators:\n\nCrude divorce rate\nDivorce rate of married women\nDivorce by duration of marriage\n\n\n\n\nBirths outside of Marriage\n\nhuge increase in the 1980s in France\ndue to secularization\nfirst spreading in the cities -> first to secularize\nremains low in religious area\n\n\nMean age at childbirth\n\npostmaterialism = developed higher order needs\nhigh postmaterialism => first child later"
+    "objectID": "migration lecture.html#gravity-models-of-migration",
+    "href": "migration lecture.html#gravity-models-of-migration",
+    "title": "Migration lecture",
+    "section": "Gravity models of migration",
+    "text": "Gravity models of migration\n\nspatial interaction model, predicts the volume of interaction between different places, based on population size and their distance\nassumes positive relationship between population size and interactuon volume, inverse correlation with distance\n\n$log(M_{ijt}) = * log(Pop_{it}) $ ????",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#criticism-of-sdt",
-    "href": "fertility.html#criticism-of-sdt",
-    "title": "Fertility and Family",
-    "section": "Criticism of SDT",
-    "text": "Criticism of SDT\n\nTheory of Gender revolution\n\ninstead of declining -> increasing fertility rates\nin SDT: not much space for place of women in society\nmore importance to change in gender relations\nmore children when men/women are equal -> men contributing to household, women able to rely on men\n2 stage process:\n\nentry of women in labour market -> fertility decline\nincreased involvement of men in household -> re-increase of fertility\n\n\n\n\nDevelopmental Paradigm\n\nreliance on cross-sectional data\nforcing multidimensional observations into linear narrative -> reading data from afterwards perspective -> bias\nweak empirical underpinnings (counter-evidence)\ndevelopmental approach -> expects all countries follow same path (as Europe)\nimportant regional variation\nethnocentric bias, descriptions based on Western societies\n\n\n\nGlobalization Theory\n\ninterest marriage is explained by sexual division of task and complementarity between spouses\nentry of women into job market -> increase in divorces\npessimistic vision on the future of marriage\nstructural changes worldwide due to globalization\nhigh level of structural uncertainty\njob market uncertainty -> young adults forgo long-term binding commitments (marriage, parenthood) -> less trustful\n\n\n\nPattern of Disadvantage\n\nincrease in non-marital births\nAccording to SDT: happening among highly-educated people first, then spread\nPoD: happening among poorest people, observed in Russia, US\n\npeople feel that they do not have the means to marry -> have children unmarried\nunmarried cohabitation out of economic necessity\nweakened by not getting married -> not protected\nhaving children is important aspect of integration/recognition in society, 2000s\n\n\n\nEducational Patterns\n????\n\n\n\nChange in Expectations\n\nDeinstituionaliazation of marriage"
+    "objectID": "migration lecture.html#push-pull-models",
+    "href": "migration lecture.html#push-pull-models",
+    "title": "Migration lecture",
+    "section": "Push-Pull Models",
+    "text": "Push-Pull Models\n????\nCriticism:\n\ndescriptive and deterministic without specifying mechanisms and intercations\nsame conditions that make some leave, make others stay\ndifficulties explaining return migration\ndichotomous, stereotypical view of north-south migration",
+    "crumbs": [
+      "Migration"
+    ]
   },
   {
-    "objectID": "fertility.html#sdt-original-vs.-revised",
-    "href": "fertility.html#sdt-original-vs.-revised",
-    "title": "Fertility and Family",
-    "section": "SDT: Original vs. Revised",
-    "text": "SDT: Original vs. Revised"
+    "objectID": "migration lecture.html#neo-classical-economic-theories",
+    "href": "migration lecture.html#neo-classical-economic-theories",
+    "title": "Migration lecture",
+    "section": "Neo-classical economic theories",
+    "text": "Neo-classical economic theories\n\nRational economic actor model\n\npeople are rational and move for economic reasons\nindividuals weigh up pros and cons, wage gaps drive movement\ncost benefit calculation based on returns to individuals human capital\n-&gt; labour and capital move in opposite directions and wages will eventually converge\n\nCritique:\n\nperfectly rational individual driven\nlow predictive power\nfails to consider personal, family, socio-cultural factors\nfails to acknowledge mult\n????",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#historical-structural-models",
+    "href": "migration lecture.html#historical-structural-models",
+    "title": "Migration lecture",
+    "section": "Historical-structural models",
+    "text": "Historical-structural models\nCritique:\n\nstresses structural constraints and depicts migrants as passive victims",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#migration-transition-theory",
+    "href": "migration lecture.html#migration-transition-theory",
+    "title": "Migration lecture",
+    "section": "Migration transition theory",
+    "text": "Migration transition theory\nMigration is an intrinsic part of broader processes of development, social transformation and globalization\n\ninitially high emigration because people seek opportunities abroad\ngetting richer, immigration increases, emigration reduces\ninternally; first it is rural to urban, but then urban to urban\nvery macro theory, similar approach to the structuralist",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#dual-labour-market-theory",
+    "href": "migration lecture.html#dual-labour-market-theory",
+    "title": "Migration lecture",
+    "section": "Dual labour market theory",
+    "text": "Dual labour market theory\n???",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#new-economics-of-labour-migration",
+    "href": "migration lecture.html#new-economics-of-labour-migration",
+    "title": "Migration lecture",
+    "section": "New economics of labour migration",
+    "text": "New economics of labour migration\nRecognizes that migration decisions are not made by perfectly rational isolated individuals\njoint decisions taken in household and for different members of the household\nunit of analysis: family, household, community rahter than the individual\npoor households used international migration as incme diversification and risk-spreadinf strategy\n????\nfocus\nCritique:\n\nlimited to the supply side of labour migration\nseems applicable to poor, rural seeting\nassume harmonious intra-household relationships",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#theories-of-perpetuation",
+    "href": "migration lecture.html#theories-of-perpetuation",
+    "title": "Migration lecture",
+    "section": "Theories of Perpetuation",
+    "text": "Theories of Perpetuation\n???\n\nMigration Networks Theory\ndefinition: migrant networks are sets of interpersonal ties, that connect migrants, non-migrtatns and former migrants in webs of kinship, friendship, and shared origin\nsocial capital, to gain information, material and psychological support\nMN decrease economic, social, psychological costs of migration\n???\nOverview:",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "migration lecture.html#aspirations-capabilities-model",
+    "href": "migration lecture.html#aspirations-capabilities-model",
+    "title": "Migration lecture",
+    "section": "Aspirations-capabilities model",
+    "text": "Aspirations-capabilities model\nmigration as function of capabilities and aspirations to move within given opportunists\nmigration is resource to access better opportunities and enhances people’s capabilities and well-being\nmigration aspirations arise as local opportunities no longer match preferences and rising aspirations\nas long as aspirations grow faster than livelihood opportunities in local communities, the out-migration will continue\ncapabilities to migrate increase with development\n????",
+    "crumbs": [
+      "Migration"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "Introduction Lecture",
+    "section": "",
+    "text": "Population = group of individuals, at a given time, in defined geographic area\n\npopulations large enough, that individual behaviour does not affect the analysis\nColeman boat (macro/micro level)\nMeso-level (sub-populations)\n\nStructure of a population = distribution by age, sex, education, etc.\n-&gt; Age pyramid, with multidimensional aspect (education, citizenship)\nAustrian pyramid (left):\n·      e) is the echo of c)/d): less children born -&gt; 25 years later less mothers having children\n·      d) pill bust\n·      c) baby boom\n·      b) 2nd world war\n·      a) Anschluss (German values of having many children -&gt; more babies)\n\n\n\n\n\n\nDemography theories\n\n\n\nDemographic metabolism = process where certain characteristics of the population are carried up the age pyramid Demographic dividend = window of opportunity, large birth cohorts economically active Demographic transition = combination of decreasing fertility and decreasing mortality\n\n\nBaby boom (more births) followed by pill bust (less births) -&gt; contraception was possible\nPure population numbers: Total population, births, deaths, students, working population, pensioners\nDemographic processes: fertility, mortality, migration\n\n\n\n·      \n·      Day of year t is important\n·      Births – Deaths -&gt; natural increase/decrease\n·      In – Out migration -&gt; net migration\n·      Also valid for subpopulations\nBasic Concepts of Demographic Analysis\nThree Riddles:\n·      Mortality in Austria vs Mexico: Austria mainly age-related deaths\n·      Very high beer consumption in Bamberg\n·      Life expectancy decrease since Corona\nOccurrences/exposure rates\nRate = #occurrences/person-years at risk\nCorrespondence principle: numerator-denominator match\nPopulation at risk changes over time -&gt; person-years -&gt; approximated by average population",
+    "crumbs": [
+      "Introduction to Demographic Theories"
+    ]
+  },
+  {
+    "objectID": "introduction.html#lecture-2",
+    "href": "introduction.html#lecture-2",
+    "title": "Introduction Lecture",
+    "section": "",
+    "text": "Population = group of individuals, at a given time, in defined geographic area\n\npopulations large enough, that individual behaviour does not affect the analysis\nColeman boat (macro/micro level)\nMeso-level (sub-populations)\n\nStructure of a population = distribution by age, sex, education, etc.\n-&gt; Age pyramid, with multidimensional aspect (education, citizenship)\nAustrian pyramid (left):\n·      e) is the echo of c)/d): less children born -&gt; 25 years later less mothers having children\n·      d) pill bust\n·      c) baby boom\n·      b) 2nd world war\n·      a) Anschluss (German values of having many children -&gt; more babies)\n\n\n\n\n\n\nDemography theories\n\n\n\nDemographic metabolism = process where certain characteristics of the population are carried up the age pyramid Demographic dividend = window of opportunity, large birth cohorts economically active Demographic transition = combination of decreasing fertility and decreasing mortality\n\n\nBaby boom (more births) followed by pill bust (less births) -&gt; contraception was possible\nPure population numbers: Total population, births, deaths, students, working population, pensioners\nDemographic processes: fertility, mortality, migration\n\n\n\n·      \n·      Day of year t is important\n·      Births – Deaths -&gt; natural increase/decrease\n·      In – Out migration -&gt; net migration\n·      Also valid for subpopulations\nBasic Concepts of Demographic Analysis\nThree Riddles:\n·      Mortality in Austria vs Mexico: Austria mainly age-related deaths\n·      Very high beer consumption in Bamberg\n·      Life expectancy decrease since Corona\nOccurrences/exposure rates\nRate = #occurrences/person-years at risk\nCorrespondence principle: numerator-denominator match\nPopulation at risk changes over time -&gt; person-years -&gt; approximated by average population",
+    "crumbs": [
+      "Introduction to Demographic Theories"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Global Demography",
     "section": "",
-    "text": "Lecture Notes Wintersemester 2024/2025"
+    "text": "Lecture Notes Wintersemester 2024/2025",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "basic methods.html",
+    "href": "basic methods.html",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "Preston et al. p.2: “Demography is one of the social science disciplines where micro- and macro-level analyses find perhaps their most complete and satisfactory articulation.”\n\nPopulation structure by age and sex\nMultidimensional: education, area of residence and ethnicity\n\n\n\nEndogenous Mechanisms:\n\nBirth\nDeath\n\nExogenous Mechanisms:\n\nIn-migration\nOut-migration\n\nPopulation stock = size and composition of a given population at given point in time\nPopulation flows:\n\n\n\nEvents\nProcesses\n\n\n\n\nBirths\nFertility\n\n\nDeaths\nMortality\n\n\nMarriages\nNuptiality\n\n\nIn/out migration\nMigration\n\n\n\n\n\n\n\n\n\n\n\n\n\nBalancing Equation\n\n\n\n\\[\nN(T) = N(0) = B[0, T] - D[0, T] + I[0, T] - O[0, T]\n\\]\n\n\n\\(N(T)\\) = #person alive in population at time \\(T\\)\n\\(N(0)\\) = #person alive in population at time \\(0\\)\n\\(B[0, T]\\) = #births in pop. between time \\(0\\) and \\(T\\)\n\\(D[0, T]\\) = #deaths in pop. between time \\(0\\) and \\(T\\)\n\\(I[0, T]\\) = #in-migrations between time \\(0\\) and \\(T\\)\n\\(O[0, T]\\) = #out-migrations between time \\(0\\) and \\(T\\)\n\n\n\n\n\n\nDefinitions\n\n\n\nNatural increase/decrease = \\(B[0, T] - D[0, T]\\)\nNet migration = \\(I[0, T] - O[0, T]\\)\n\n\n\nComprehensive\nExact\nUsed for indirect estimation of net-migration\n\n\n\n\n\nCount number of occurrences\n\nimpractical\nheavily influenced by #people who are at risk of experiencing the event (e.g: increasing population size)\n\nVital events\n\nbirths, death, marriages, in/out-migration\n\nDemographic Data\n\nparish records, civil registration, census, sample surveys\n\nCombining flows to population stocks\n\ne.g: #deaths per 100 people\n\n\n\n\n\nnot all members equally exposed\nfrequency of occurrence higher the longer the exposure\nPYL = sum of each individuals time at risk of experiencing an event\n\n\n\n\nDiscrete time:\n\\[\nPYL[0, T] = \\sum_{t = 0}^T{N_t\\Delta t}\n\\]\nContinuous time:\n\\[\nPYL[0, T] = \\int_{t = 0}^T{N_t dt}\n\\]\n\n\n\n= demographic rate is an indicator that properly relates the frequency of an event to the size of population exposed to the event\n\\[\nRate = \\frac{\\# \\text{occurrences [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Death Rate:\n\\[\nCDR[0, T] = \\frac{\\# \\text{deaths [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Birth Rate: \\[\nCBR[0, T] = \\frac{\\# \\text{births [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude In-Migration Rate: \\[\nCRIM[0, T] = \\frac{\\# \\text{in-migrations [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPYL Approximation\n\n\n\nMidyear method:\n\\[\nPYL = N_{mid} * T\n\\]\nAverage population method:\n\\[\nPYL(0, T) = \\frac{N(T) + N(0)}{2} * T\n\\]",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#what-is-demography",
+    "href": "basic methods.html#what-is-demography",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "Preston et al. p.2: “Demography is one of the social science disciplines where micro- and macro-level analyses find perhaps their most complete and satisfactory articulation.”\n\nPopulation structure by age and sex\nMultidimensional: education, area of residence and ethnicity\n\n\n\nEndogenous Mechanisms:\n\nBirth\nDeath\n\nExogenous Mechanisms:\n\nIn-migration\nOut-migration\n\nPopulation stock = size and composition of a given population at given point in time\nPopulation flows:\n\n\n\nEvents\nProcesses\n\n\n\n\nBirths\nFertility\n\n\nDeaths\nMortality\n\n\nMarriages\nNuptiality\n\n\nIn/out migration\nMigration",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#balancing-equation-of-population-change",
+    "href": "basic methods.html#balancing-equation-of-population-change",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "Balancing Equation\n\n\n\n\\[\nN(T) = N(0) = B[0, T] - D[0, T] + I[0, T] - O[0, T]\n\\]\n\n\n\\(N(T)\\) = #person alive in population at time \\(T\\)\n\\(N(0)\\) = #person alive in population at time \\(0\\)\n\\(B[0, T]\\) = #births in pop. between time \\(0\\) and \\(T\\)\n\\(D[0, T]\\) = #deaths in pop. between time \\(0\\) and \\(T\\)\n\\(I[0, T]\\) = #in-migrations between time \\(0\\) and \\(T\\)\n\\(O[0, T]\\) = #out-migrations between time \\(0\\) and \\(T\\)\n\n\n\n\n\n\nDefinitions\n\n\n\nNatural increase/decrease = \\(B[0, T] - D[0, T]\\)\nNet migration = \\(I[0, T] - O[0, T]\\)\n\n\n\nComprehensive\nExact\nUsed for indirect estimation of net-migration",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#measuring-population-changes",
+    "href": "basic methods.html#measuring-population-changes",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "Count number of occurrences\n\nimpractical\nheavily influenced by #people who are at risk of experiencing the event (e.g: increasing population size)\n\nVital events\n\nbirths, death, marriages, in/out-migration\n\nDemographic Data\n\nparish records, civil registration, census, sample surveys\n\nCombining flows to population stocks\n\ne.g: #deaths per 100 people\n\n\n\n\n\nnot all members equally exposed\nfrequency of occurrence higher the longer the exposure\nPYL = sum of each individuals time at risk of experiencing an event\n\n\n\n\nDiscrete time:\n\\[\nPYL[0, T] = \\sum_{t = 0}^T{N_t\\Delta t}\n\\]\nContinuous time:\n\\[\nPYL[0, T] = \\int_{t = 0}^T{N_t dt}\n\\]\n\n\n\n= demographic rate is an indicator that properly relates the frequency of an event to the size of population exposed to the event\n\\[\nRate = \\frac{\\# \\text{occurrences [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Death Rate:\n\\[\nCDR[0, T] = \\frac{\\# \\text{deaths [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude Birth Rate: \\[\nCBR[0, T] = \\frac{\\# \\text{births [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]\nCrude In-Migration Rate: \\[\nCRIM[0, T] = \\frac{\\# \\text{in-migrations [0, T]}}{\\text{Person-time of exposure [0, T]}}\n\\]",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#approximation-of-pyl",
+    "href": "basic methods.html#approximation-of-pyl",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "",
+    "text": "PYL Approximation\n\n\n\nMidyear method:\n\\[\nPYL = N_{mid} * T\n\\]\nAverage population method:\n\\[\nPYL(0, T) = \\frac{N(T) + N(0)}{2} * T\n\\]",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#population-growth-rates",
+    "href": "basic methods.html#population-growth-rates",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Population Growth Rates",
+    "text": "Population Growth Rates\n\nInstantaneous Growth Rate\n\n\n\n\n\n\nDefinition\n\n\n\nInstantaneous growth rate = crude growth rate at a point in time or in very tiny interval of time\n\n\n\n\n\n\n\n\nImportant\n\n\n\n\\[\nr(t) = \\frac{dN(t)}{dt} * \\frac{1}{N(t)} = \\frac{dln(N(t))}{dt}\n\\] This represents the fraction by which a population would grow during a tiny period of time.\n\n\n\n\nExponential Growth Model\n\n\n\n\n\n\nExponential growth model\n\n\n\n\\[N(t) = N(0)e^{\\int_0^T{r(t)dt}}\\]\nFor constant \\(r(t)\\) between 0 and T at \\(r^{*}\\): \\[N(t) = N(0)e^{Tr^{*}}\\]\n\n\n\n\n\n\n\n\nConstant growth assumption\n\n\n\nAssumption: \\(r(t) = r^*\\)\n\\[ r^* = ln(\\frac{N(T)}{N(0)}) * \\frac{1}{T}\\]\n\n\nIn a closed population -&gt; constant change in RNI\n\\(r^* = ln(1 + \\frac{B(t)-D(t)}{N(0)}) * \\frac{1}{T}\\)\n\n\nDoubling Time\nThe time it would take for a population to double in size at a given growth rate, assuming the exponential model holds.\n\n\n\n\n\n\nDoubling time\n\n\n\n\\[\nT_{double} = ln(2) * \\frac{1}{r^*}\n\\]",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#estimating-period-pyl",
+    "href": "basic methods.html#estimating-period-pyl",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Estimating Period PYL",
+    "text": "Estimating Period PYL\nEstimating PYL under constant exponential growth rate assumption.\n\n\n\n\n\n\nPYL (constant growth)\n\n\n\n\\[\nPYL(0,T) = \\frac{N(T) - N(0)}{r^*}\n\\]\n\n\n\nLimitations of midyear approach\n\nIf N(t) is linear -&gt; good approximation =&gt; use for short time intervals\nUnder constant exponential growth rate assumption -&gt; underestimation",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#problems-of-crude-rates",
+    "href": "basic methods.html#problems-of-crude-rates",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Problems of Crude Rates",
+    "text": "Problems of Crude Rates\n\nViolate principle of correspondence\n\nloose connection between risk of occurrence and exposure\n\nToo “crude” to compare demographic experiences among populations\n\ndoes not take population structure into account\n=&gt; differences in demographic composition greatly influence principal crude rates\n\n\n\nAge-Specific Rates\n\n\n\n\n\n\nAge-specific death rate\n\n\n\nSingle ages:\n\\[\nASDR_x[0, T] = \\frac{\\# \\text{deaths of people age x years [0, T]}}{PYL_x[0, T]}\n\\]\n\\[\nM_x = \\frac{D_x}{PYL_x}\n\\]\nAge groups of size \\(n\\), \\([x, x + n)\\):\n\\[\nnM_x[0, T] = \\frac{nD_x}{nPYL_x}\n\\]\n\n\n\n\nCrude Death Rate\nCDR is the sum of ASDR weighted by the proportionate age distribution of the population.\n\n\n\n\n\n\nCDR expressed as sum of ASDRs\n\n\n\n\\[\nCDR = \\sum{ASDR_i*c_i}\n\\]\nwhere \\(\\sum{c_i} = 1\\)",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
+    "href": "basic methods.html#minimizing-the-confounding-effect-of-age-composition",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Minimizing the confounding effect of age composition",
+    "text": "Minimizing the confounding effect of age composition\n\nAge Specific Rates\n\nensures comparability among populations from within a specific age-group (despite different age-structures)\nhard to summarize or interpret\n\n\n\nAge Standardization\n\nAsses impact of ASDR based on age structure of a standard population\nASDR of a population is weighted by proportionate age distribution of a standard population\n\n\n\n\n\n\n\nASCDR\n\n\n\n\\[\nASCDR^j = \\sum_{i = 1}^{\\infty}{M^j_iC^s_i}\n\\]\n\\(M_s^j\\) = age-specific death rates in population j\n\\(C_i^s\\) = age-specific population weights of the standard population\n\n\n\nWhich population as standard?\n\nOne of the comparing populations\n\nnot recommended, different results for different standards\n\nAverage of the two population compositions\n\n\\(C_i^s = \\frac{C^B_i + C^A_i}{2}\\)\n\nWhen comparing more than 2 populations:\n\nUse standard close to mean or median of population structures\nUse regional age-structure",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#indirect-standardization",
+    "href": "basic methods.html#indirect-standardization",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Indirect Standardization",
+    "text": "Indirect Standardization\n\nStandardized Comparative Mortality Ratio\nSummary measure to compare the death rates in two populations whilst accounting for different population distributions\n\ndata on ASDR unavailable/fluctuating\nsmall populations\n\n\n\n\n\n\n\nDefinition\n\n\n\nSMR = the ratio of the actual number of deaths in population \\(A\\) to the expected number based on the age-specific death rates of the standard population\n\n\n\n\n\n\n\n\nSMR\n\n\n\n\\[\nSMR = \\frac{\\sum_i{D_i^A}}{\\sum_i{M^S_iN_i^A}}\n\\]\nIf \\(SMR &lt; 1\\), \\(M_iS &gt; M^A_i\\).",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#period-vs.-cohort-approach",
+    "href": "basic methods.html#period-vs.-cohort-approach",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Period vs. Cohort Approach",
+    "text": "Period vs. Cohort Approach\n\nPeriod Approach\nAdvantages:\n\nreadily available data\neasy to interpret\n\nDisadvantages:\n\nviolate the principle of correspondence\ndoes not reflect experience of real group of people\n\n\n\nCohort Approach\n\nreal group of people who experience demographic events during a specific time interval, e.g: marriage cohort, school cohort, …\nBirth cohort = real group of people sharing the same birth date\n\nCohort rate: \\(cohort rate = [x, x+n] = \\frac{\\# \\text{events in the cohort [x, x+n]}}{\\text{PYL in the cohirt [x, x+n]}}\\)\n\nProbability\n= chance that some event will occur, not rate at which it occurs\n\\(Probability = \\frac{\\#Occurrences}{\\# \\text{preceeding events or trials}}\\)\n\\(nqx^c = \\frac{\\#\\text{Occurrences in cohort c [x, x+n]}}{\\# \\text{persons in the cohort reaching age. x}}\\)\n\n\n\nThe Identification Problem\nMeasures base on the cohort and period approaches are interlinked: Period = Age + Cohort\n\nHow do we measure age?\n\nExact age\n\nexact number in years, months and days\nrarely used\n\nAge reached during the year\n\nremains constant during the whole calendar year\n\nAge reached last birth day/age in complete years\n\nremains constant until next birthday\n\n\n=&gt; disparity between age reached during year and age last birthday",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#lexis-diagram",
+    "href": "basic methods.html#lexis-diagram",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Lexis Diagram",
+    "text": "Lexis Diagram\n\nLife Lines\n\neach person in LD has a life line\ndiagonal (45°) line\nstarts at birth, ends at death\n\n\n\nWays of Classifying Events\n\nAge-Period Classification\n\nClassification according to age and calendar time\nAge in completed years\nCorresponds to two different cohorts\nRectangle\n\n\n\nA - exposure/events by those who reached age 3 in the previous year\nB - reach age 3 in the calendar year\n\n\n\nAge-Cohort Classification\n\ngrouped together by age in completed years and within the same birth cohort\nparallelogram, two horizontal lines (ages), two 45° lines (cohort)\ncounting events will stretch over two calendar years\nPeriod = Cohort + age\n\n\n\n\nPeriod-Cohort Classification\n\nevents/exposure occurred in a given calendar year and within a given cohort\nparallelogram, two vertical lines (period), two 45° lines (cohort)\nAge reached = period - cohort\nCohort will reach age x on average halfway through the period\n\n\nSummary:",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
+    "href": "basic methods.html#person-time-at-risk-in-the-lexis-diagram",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Person-time at risk in the Lexis Diagram",
+    "text": "Person-time at risk in the Lexis Diagram\n\\(C\\) …. cohort\n\\(x\\) …. age\n\\(t\\) … period\nA-P: \\(PYL^t_{[x, x+1]} = \\frac{P^t_{[x, x + 1 ]} + P^{t + 1}_{[x, x+ 1]}}{2}\\)\nA-C: \\(PYL^{C}_{[1, 2)} = \\frac{P^C_x + P^C_{x+1}}{2} = P^{t+1}_{[x, x+ 1]}\\)\nC-P: \\(PYL^C_y = \\frac{P^c_t + P^c_{t+1}}{2}\\)",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#infant-mortality-rate",
+    "href": "basic methods.html#infant-mortality-rate",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Infant Mortality Rate",
+    "text": "Infant Mortality Rate\nIMR is a period measure, concerns children &lt;1y.\n\n\n\n\n\n\nIMR\n\n\n\n\\[\nIMR = \\frac{\\# \\text{Deaths under age 1 in year t}}{\\# \\text{live births in year t}}\n\\]\n\n\n\nneither rate nor probability (principle of correspondence)\n\nwill equal to the probability of dying before age 1 for the cohort born in year t if \\(pD_0^t = PD_0^{t + 1}\\).",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#life-tables",
+    "href": "basic methods.html#life-tables",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Life Tables",
+    "text": "Life Tables\n\nage-specific mortaliy experience of a cohort\nderived by following birth cohort through life, tabulated proportion of surviving\ncan be used to study any kind of failure process\n\nunambigious starting point\nfailure is unambigious event with clear location in ti,e\nprocess measured in time, varying with age/other duration measure\n\n\n\nSingle Decrement Life Table\n\nsingle, universal\nunidirectional transition\nALIVE -&gt; DEAD\n\n\n\nMultiple Decrement Life Table\n\nmore than one transition possible\ncompeting risks, only one cause of death\nALIVE -&gt; CAUSE A/ CAUSE B/ CAUSE C\n\n\n\nMulti-State and increment-decrement life table\n\nrecurring event\n\n\n\n\nCohort vs. Period Life tables\n\nCohort: traces experience of an actual cohort of newborn babies through entire life\nPeriod: cohort data outdated/unavailable, follow-up loss =&gt; synthetic cohort rate used",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#columns-of-a-life-table",
+    "href": "basic methods.html#columns-of-a-life-table",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Columns of a life table",
+    "text": "Columns of a life table\n\n\\(l_x\\) = #survivors to age x\n\\(nd_x\\) = #dying in the age interval\n\\(np_x\\) = survival probability in the interval\n\\(nq_x\\) = probability of dying in the interval\n\\(na_x\\) = average years lived by those dying in the interval\n\\(nL_x\\) = PYL in the interval\n\\(T_x\\) = total PYL above age x\n\\(e_x\\) = remaining life expectancy\n\n\n\n\n\n\n\nLife Table Formulas COHORT\n\n\n\n\\(nd_x = l_x - l_{x+n}\\)\n\\(np_x = \\frac{l_{x + n}}{l_x}\\)\n\\(nq_x = 1 - np_x = \\frac{nd_x}{l_x}\\)\n\\(nL_x = n * l_{x +n} + \\sum{A_i}\\)",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#period-life-table",
+    "href": "basic methods.html#period-life-table",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Period Life Table",
+    "text": "Period Life Table\nSolution 1: computing q-type rates for each cohort who reach age x in year t =&gt; Assumption: AP = AC\nLimitation: data availability on \\(l_x\\)\n\n\\(nM_X\\) -&gt; \\(nq_x\\) conversion\nBasic assumption: \\(nm_x = nM_x\\)\n\n\n\n\n\n\nPeriod Life Table Formulas\n\n\n\n\\(nM_x = \\frac{nD_x}{PYL}\\)\n\\(nm_x = \\frac{nd_x}{nL_x}\\)\n\\(nq_x = \\frac{n* nm_x}{1 + (n - na_x)nm_x}\\)\n\\(L_x = n * l_{x + n} + na_x * nd_x\\)\n\\(L_{last} = l_{last}/M_{last}\\)\n\\(T_x = \\sum_{x}^{\\infty}{L_x}\\)\n\\(e_x = \\frac{T_x}{l_x}\\)\n\n\n\n\nChoosing \\(na_x\\)\n\nDirect observation: rarely available, influenced by age distribution\nGraduation of \\(nm_x\\) function: observing level and slope of curve\nRule of Thumb\n\nDeaths on average halfway through the interval\n\n\\(na_x = \\frac{n}{2}\\)\n\nConstant \\(nm_x\\) in the interval\n\n\\(na_x &lt; \\frac{n}{2}\\)\n\n\nBorrowing from another population\n\n\n\n\\(na_x\\) for the very young ages\n\n\n\nOpen-ended age interval\n\n\n\n\n\n\nImportant\n\n\n\n\\(\\infty q_x = 1\\)\n\\(\\infty a_x = \\frac{1}{\\infty m_x}\\)\n\\(\\infty L_x = \\frac{\\infty d_x}{\\infty m_x}\\) ???\n\n\n\n\nAggregating \\(e_0\\)\n\nAveraging procedure:\n\nweighted average of county-level LE\nweights can be relative population size\n\nMerging procedure\n\nmerging deaths and exposure to risk in larger units\nrecommended\n\n\n\n\nDecomposing a difference in LE\nsee Preston et al. p. 64/65",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#fertility-and-reproduction",
+    "href": "basic methods.html#fertility-and-reproduction",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Fertility and Reproduction",
+    "text": "Fertility and Reproduction\n\n\n\n\n\n\nDefinitions\n\n\n\nFertility = incremental process whereby members of a population create new members through births\nReproduction = process whereby new members of a population replace the previous generation of women, involves mortality and fertility\nBirth order = rank of a birth according to #previous births to the mother\nParity = #live births the woman has had\nFecundity = physiological capability to produce a live birth\nFecundability = monthly probability of conception in the absence of contraception or temporary infertility\n\n\n\nProblems with Fertility Analysis\n\nrepeated events\nrisk of experiencing a birth is not universal among female population\n\nphysiological or medical reasons\n\nvaries with age\n\nindividual/household choice\n\ncontraceptives, sexual activity, abortion, relationship status\n\nsocially regulated\n\nculture/social norms\n\n\n\n\n\nPeriod Indicators\n\n\n\n\n\n\nPeriod Indicators\n\n\n\n\\(CBR[0, T] = \\frac{\\# \\text{births [0, T]}}{PYL[0, T]} * 1000\\)\n\\(GFR = \\frac{\\# \\text{births [0, T]}}{\\text{PYL by women of childbearing age [0, T]}}\\)\n\\(ASFR_x = \\frac{\\# \\text{births at age x}}{\\text{Female PYL at age x}}\\)\n\\(ASCBR[0, T] = \\sum_{i = 1}^I{ASFR_i * C_i^S}\\)\n\\(C_i^S\\) … share of total PYL lived by women in i-th age group\n\\(TFR[0, T] = n * \\sum_{i = 1}^I{ASFR_i[0, T]}\\)\n\n\n\nGFR instead of CBR: denominator matches better\nProblems with CBR/GFR: do not account for age structure -&gt; Age standardization\nTFR\n\nmost widely used age-standardized summary indicator\n= average #children a women would bear if she survived through the end of reproductive age span and experienced a particular fertility schedule at each age\nindependent of variability in age structure",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#fertility-and-reproduction-1",
+    "href": "basic methods.html#fertility-and-reproduction-1",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Fertility and Reproduction",
+    "text": "Fertility and Reproduction\n\n\n\n\n\n\nDefinitions\n\n\n\nCompleted cohort fertility = completed family size = actual average number of childrenthat women of a real cohort do haveby the end of their childbearing years\nPeriod TFR = average number of children who would be born to a hypothetical cohort of women\n\n\nCohort assumptions:\n\nthey had all survived to the end of their reproductive period\nhad the same rate of childbearing at each age as the women who survived\n\nPeriod assumptions:\n\nif they had all survived to the end of their reproductive period\nbear children at each age at the rate observed during a particular period\n\n\nReproductive measures\n\nTFR &gt; 2.1 -&gt; population is growing\nTFR &lt; 2.1 -&gt; population\n\nTFR as growth indicator ignores two factors: sex ratio and mortality\nComparing the sizes of successive generations (comparing #daughters and #mothers) -&gt; ASFR using female births\n\\[\nnF_x^f = \\frac{\\# \\text{female births to women age }[x, x + n]}{\\text{PYL of women age }[x, x + n]}\n\\]\n\nGross and Net Reproduction Rate\n\n\n\n\n\n\nDefinitions\n\n\n\nGRR = number of daughters an average women would have if she lived through the end of their reproductive span\nNRR = total number of daughter each member of a birth cohort of women produce during their reproduction life span if they were subject to the observed ASFR and ASMR\n\n\n\nNRR is simply GRR adjusted or mortality\nNRR measures size of the next generation compared to present one\n\nGRR and NRR:\n\\(l_0\\) = original size of the women birth cohort\n\\(nL_x^f\\) = PYL by members of the cohort of women in age interval \\([x, x+n]\\)\n\\(nF_x^f * nL_x^f\\) = number of daughters born to between \\([x,x+n]\\) to a birth cohort of women\nNo Mortality:\nAverage number of daughters born to a cohort of size \\(l_0\\):\n\\[\nGRR = n * \\sum{nF_x^f}\n\\]\nAdjusting for Mortality:\nAverage number of daughters born to a cohort of size \\(l_0\\): \\[ NRR = \\frac{\\sum{F_i^F * nL_x^f}}{l_0}\\]\n\n\nInterpretation of NRR\n\nIf NRR &gt; 1, cohort of girls will replace a bigger cohort of daughters than themselves\nIf NRR = 1, the next generation will be exactly the same size as the present one\nIf NRR &lt; 1, implies that each generation is smaller than the previous generation, so the population will decline from natural decline across the generations\n\n\n\n\n\n\n\nNote\n\n\n\nThe stable population assumption is crucial when interpreting the NRR, meaning it is assumed that the structure of a population does not change over time.\n\nConstant fertility and mortality rates: age-specific rates stay the same over time\nunchanging age composition\n\n\n\n\n\n\nParity Progression Ratio\nThe parity progression ratio measures proportion of women with \\(n\\) children who go on to have \\(n+1\\) children.\n\ncompleted family size among a cohort of women\npattern of fertility-limiting behaviour in a population\n\n\nCalculating PRR\n\n\n\n\n\n\nDefinition\n\n\n\nPPR = proportion of a cohort who had least \\(j\\) live births and went on to have at least one more.\n\n\n\\(W\\) … original cohort size\n\\(W_j\\) … #women at parity \\(i\\)\n\\(W = \\sum_{j = 0}^{I}{W_j}\\)\n\\(P_j\\) … #women at parity \\(j\\) or more\n\\(P_j = \\sum_{a= j}^{I}{W_a}\\)\n\n\n\n\n\n\nPPR\n\n\n\n\\[ PRR_{j, j+1} = \\frac{\\text{Women at Parity j + 1 or more }}{\\text{Women at Parity j or more}} = \\frac{P_{j+1}}{P_j} = a_j\\]\n\n\n\n\n\nCompleted cohort fertility\n\n\n\n\n\n\nCCF\n\n\n\n\\[\nCCF = \\sum_{i = 1}{PPR(0,i)}\n\\]\n\n\n\n\nOrder Specific TFR\nBirth order refers to the rank of a birth according to the number of previous births to the mother.\n\\[\nF_{i, j, t} = \\frac{\\# \\text{births of order j to women in age group i}}{\\text{PYL of women age i in a given year t}}\n\\]\n\n\n\n\n\n\nOrder Specific TFR\n\n\n\n\\[\nTFR_{j,t} = n * \\sum_{i = 1}^I{F_{i,j, t}}\n\\]\n\\(i\\) … age interval\n\\(j\\) … order of birth",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#exam-info",
+    "href": "basic methods.html#exam-info",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Exam Info",
+    "text": "Exam Info\n2 sections\nshort essays about basic concepts, definitions, simple data for calculations, e.g: limitations of crude rates\nreal data, like Sweden case, summary indicators, life table, similar to homework",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#period-tfr-vs.-ccf",
+    "href": "basic methods.html#period-tfr-vs.-ccf",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Period TFR vs. CCF",
+    "text": "Period TFR vs. CCF\n\nWhy would the period TFR change?\n\nQuantum Effect\n\n= changes in the total #children born per woman\nchange in complete family size\n\nTempo Effect\n\n= changes in timing of childbearing when CCF rates remain constant\n\n\n\n\\(\\frac{F_i}{CCF_i}\\) = fraction of average number of births by the cohort reaching age i at time t that actually occurred in the period.\n\n\n\n\n\n\nDefinitions\n\n\n\nQuantum effect = period TFR declined because of a decline in CCF of a cohort reaching age i at time t\nTempo effect = period TFR declined because of a change in age pattern of fertility",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#mean-age-at-childbearing",
+    "href": "basic methods.html#mean-age-at-childbearing",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Mean Age at Childbearing",
+    "text": "Mean Age at Childbearing\n\\(MAC = \\frac{\\sum{F_i * midage_i}}{\\sum{}F_i}\\)\n?????",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "basic methods.html#use-of-period-tfr",
+    "href": "basic methods.html#use-of-period-tfr",
+    "title": "Basic Methods of Demographic Analysis",
+    "section": "Use of Period TFR",
+    "text": "Use of Period TFR\n\ndata requirements for TFR is limited, easy to compute\nis an age-standardized measure (unlike CBR)\nTFR can be computed for the year just passed (unlike CFS/cohort TFR)",
+    "crumbs": [
+      "Basic Methods of Demographic Analysis"
+    ]
+  },
+  {
+    "objectID": "fertility.html",
+    "href": "fertility.html",
+    "title": "Fertility and Family",
+    "section": "",
+    "text": "Rapid population growth is temporary\nhappened at different times, but all countries have begun demographic transition\nTriggers:\n\nindustrialization/economic growth\nimprovement in health conditions\nfemale empowerment and employment\n\nRole of education: better health prevention , technological progress -&gt; education, child quality -&gt; lower fertility\n\n\n\n\n\nready and able to reduce fertility\n\nlow mortality -&gt; enough children survive\neconomic status quo if not having children\nacceptable means of contraception\nquantity-quality trade-off\n\nupwards social mobility\nincreased returns to education\n\n\nimportance of women’s situation\n\ngender roles in society\neconomic and political empowerment of women\n\nsocial and political situation\n\nhuman capital growth (education number and quality of people)\ninstitutions and democracy\n\n\n\n\n\n\nmarriage: from early and universal to later or maybe never\nbirth spacing: within marriage, longer breastfeeding, contraception\nContraception: abortion, coitus interruptus, pill (1960s), sterilization\nDue to improved health -&gt; better reproductive capacity\n\nfewer stillbirths/miscarriages\ndecline in widowhood\n\n=&gt; fertility rebound just after mortality decrease, before fertility decrease\n\n\n\nlife expectancy = number of years to live in a fictive cohort\nTFR = number of children per woman in a fictive cohort\nLexis diagram",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#demographic-transition",
+    "href": "fertility.html#demographic-transition",
+    "title": "Fertility and Family",
+    "section": "",
+    "text": "Rapid population growth is temporary\nhappened at different times, but all countries have begun demographic transition\nTriggers:\n\nindustrialization/economic growth\nimprovement in health conditions\nfemale empowerment and employment\n\nRole of education: better health prevention , technological progress -&gt; education, child quality -&gt; lower fertility",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#fertility-transition",
+    "href": "fertility.html#fertility-transition",
+    "title": "Fertility and Family",
+    "section": "",
+    "text": "ready and able to reduce fertility\n\nlow mortality -&gt; enough children survive\neconomic status quo if not having children\nacceptable means of contraception\nquantity-quality trade-off\n\nupwards social mobility\nincreased returns to education\n\n\nimportance of women’s situation\n\ngender roles in society\neconomic and political empowerment of women\n\nsocial and political situation\n\nhuman capital growth (education number and quality of people)\ninstitutions and democracy",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#transition-from-natural-to-controlled-fertility",
+    "href": "fertility.html#transition-from-natural-to-controlled-fertility",
+    "title": "Fertility and Family",
+    "section": "",
+    "text": "marriage: from early and universal to later or maybe never\nbirth spacing: within marriage, longer breastfeeding, contraception\nContraception: abortion, coitus interruptus, pill (1960s), sterilization\nDue to improved health -&gt; better reproductive capacity\n\nfewer stillbirths/miscarriages\ndecline in widowhood\n\n=&gt; fertility rebound just after mortality decrease, before fertility decrease\n\n\n\nlife expectancy = number of years to live in a fictive cohort\nTFR = number of children per woman in a fictive cohort\nLexis diagram",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#fertility-transition-across-world-regions",
+    "href": "fertility.html#fertility-transition-across-world-regions",
+    "title": "Fertility and Family",
+    "section": "Fertility transition across world regions",
+    "text": "Fertility transition across world regions\n\n\n\n\n\n\nDefinitions\n\n\n\nperiod life expectancy = average #years a newborn would live if age-specific mortality rates in the current year were to stay the same throughout its life\n\n\n\nPeriod fertility measures\nCrude birth rate: number of births per thousand persons in a given population within a given year\n\\[CBR = \\frac{\\text{births in year y}}{\\text{population in year y}} * 1000 = \\frac{B}{P} * 1000\\]\nGeneral fertility rate: number of births per thousand women of ‘reproductive age’ in a given population, within a given year\n\\[ GFR = \\frac{\\text{births in year y}}{\\text{women age 15-49 in year y}} * 1000 = \\frac{B}{\\sum_{x = 15}^{49}{W_x}} * 1000\\]\nAge-specific fertility rates : number of births per thousand women of a given age \\(x\\), in a given population in a given year\n\\[ ASFR_x = \\frac{\\text{births at age x}}{\\text{women of age x at risk}} * 1000 \\]\nUsing age groups of size \\(n\\), over a period \\(p\\)\n\\[ASFR_{[x, x+n], p} = \\frac{B_{[x,x+n], p}}{W_{[x,x+n], p}}* 1000\\]\nTotal fertility rate : fertility level standardized per age, number of children per woman, births occurring in the course of one year, standardized for age. Corresponds to one woman who has the average number of children of each age across all her reproductive life.\nTFR = total number of children of women born in a fictive birth cohort, were they behaving at each age like in the current year.\nSingle Ages: \\[TFR = \\sum_{x = 15}^{49}{\\frac{ASFR_x}{1000}} = \\sum_x{\\frac{B_x}{W_x}}\\] Age Groups of size \\(n\\): \\[TFR = \\sum_{x = 15, 20, ...}^{49}{\\frac{ASFR_{[x, x + n]}*n}{1000}}\\]\n\n\n\n\n\n\nSynthetic cohort\n\n\n\nfor year y, a hypothetical cohort who would behave at each sage the same way as in year y.\nage structure is fixed, assumed no mortality and no migration between ages 15-49. -&gt; often not the case\n\n\nAssumptions:\n\nindependence: mortality and migration independent of past fertility\ncontinuity: everyone behaves in the same way\ncurrent conditions: fertility only depends on current conditions, not paste\n\nLimitations of TFR:\n\nsensitive to short term variation\nTFR can be equal between countries, despite different ASFR\nTFR reflects changes in the timing of birth -&gt; lower at time of postponement\n\nAdvantage of TFR: standardized measure, comparable over time and across countries\n\n\nDe Brujin: Theory or Framework?\nDemography:\n\nadequate descriptive elements\nno grand unifying theory\ninterdisciplinary sub-narratives\nindependent inputs contribute to overall explanation\n\nFertility transition:\n\nmortality decline, modernization\ncollapse of normative and ideational systems that support fertility\nintermediate determinants\ndiffusion of ideas of fertiltiy and contraception\n\nContext and individual processes necessary\n\n\nFertility decline approaches:\n\nSocial Organization approach\n\nIdeational change -&gt; attitudes, values, importance of fertility ideals and intentions, consciousness\nInnovation and diffusion -&gt; between groups, acceptance of new ideas and technologies (contraception)\n\n\n\nCulture Approach\n\nshared values and beliefs, intergenerational transmission\nethnicity, language, region, religion, …\n\n\n\nInstitutional approach\n\nkinship, family systems, socioal systems\nFertility: situational specific and dependent on histories\n\n\n\nEconomic approach\n\nQuantity-Quality trade-off: children better educated -&gt; more value, less children; children loose economic values, cost increases\nOpporuntity cost of children: loss of income (higher wages), not an insurance against widowhood\nWealth flow theory\n\nparents make rational decisions based on direction of intergenerational transfers\nparents no wealth -&gt; children need to provide net wealth\nparents wealthy -&gt; less children\n\n\nLimitations:\n\nvariations in patterns of fertility decline\nwide range of historical contexts\nEurocentrism\n\nSpecific knowledge needed:\n\nsocio-economic and cultural settings\nmechanisms of social change\nchoices of individuals within a context (structure-agency interaction)",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#proximate-determinants",
+    "href": "fertility.html#proximate-determinants",
+    "title": "Fertility and Family",
+    "section": "Proximate determinants",
+    "text": "Proximate determinants\n\nproportion of women married by age : exposure\nprevenlance and effectiveness of contraception : deliberate control\nprevalence of induced aboriton : deliberate control\nduration of lactional infecundity : natural fertility\n\nNatural fertility: 15.3 children/woman\n-&gt; easier to link determinants to societal changes than fertility changes directly\n\nCoales exploration (Europe)\n\nindex expresses fertility relative to fertility of Hutterites (universal marriage)\nhelped understand decline in fertility in Europe\n\n\n\nLACAR Fertility decline\nDecline attributed to “limiting” behaviour\n\nincrease in contraceptive use (female sterilization and abortion)\nalmost not to change in partnership (no increase in age)\nnot to breastfeeding\n\nCauses:\n\nmodernization model among highly educated and wealthy urban women\ndiffusion: availability of contraception\npoverty-driven fertility decline in other areas and social classes",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#data-availability",
+    "href": "fertility.html#data-availability",
+    "title": "Fertility and Family",
+    "section": "Data Availability",
+    "text": "Data Availability\n\ncensuses: static, cross-sectional snapshot\nvital registration systems: record of events, dynmaic, information on flows\nsurvery: samples, specific aspects, case, cross-sectional, longitudinal, retrospective\n\n\n\nTypes of Data:\n\nCross-sectional: differnce in fertility intentions by level of education\nLongitudinal: change in contraceptive use depending on wanting a child\nRetrospective: reconstruction of a woman’s fertility and family history",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#data-for-fertility-estimates",
+    "href": "fertility.html#data-for-fertility-estimates",
+    "title": "Fertility and Family",
+    "section": "Data for Fertility Estimates",
+    "text": "Data for Fertility Estimates\n\n#live births by age of mother\nestimates of population exposed to risk\n\n-&gt; civil registration and vital statistic system\n=&gt; direct estimate of fertility\nIssues:\n\npopulation size difficult to be exact, migration often not recorded\ndelay/gaps in birth registration\n-&gt; household surveys for quality control\nfull birth histories: better than census, sampling variability and representativeness issues",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#households-and-families",
+    "href": "fertility.html#households-and-families",
+    "title": "Fertility and Family",
+    "section": "Households and Families",
+    "text": "Households and Families\n\nHousehold: group of people who co-reside\nFamily: social units, related by birth, marriage or adoption\n\n\nComposition\n\nnumbe of members, ages, relationships\nFamily types:\n\nnuclear families: one couple + potential children\nsingle-parent families: one parent + children\nExtended families:\n\nStem families: parents + 1 married adult child\nJoint families: parents + 2+ marriage adult children\n\n\n\nAverage houshold size is driven by number of children (or share of older people)\nMultigenerational households: common in africa, less Asia, Latin america, not many in Europe\n\n\nTransitions:\nHousehoulds:\n\nadult children forming new household\nperson moving in/out\nbirths/deaths\n\nFamilies:\n\nunion formation/dissolution\nchild leaving parental household",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#lgbtqia-families",
+    "href": "fertility.html#lgbtqia-families",
+    "title": "Fertility and Family",
+    "section": "LGBTQIA+ families",
+    "text": "LGBTQIA+ families\n\nlimited research: minorities, limited data, fluidity of gender and sexual identity",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#transformation-of-families",
+    "href": "fertility.html#transformation-of-families",
+    "title": "Fertility and Family",
+    "section": "Transformation of Families",
+    "text": "Transformation of Families\nCommon features of families worldwide:\n\npair-bonds between individuals who raise children together\ntendency for women to devote more time than men\n\nBeyond the parents:\n\nchild-care and schooling\nrise of male bread winning only with industrialization\n\n\nFamilies in the past\n\nintergenerational families prevailed, family farms and inheritance, stem families in Europe\nsome nuclear families before industrialization, but nannies, from children leaving farm\nother world regions more stem families\nFamily as central social structure, but huge variation in organization\n\n\n\n\n\n\n\nDefinition\n\n\n\npatriarchy = hypothetical social sytem in which the father or a male elder has absolute authority over family group by extension over the society as a while\n\n\n\n\nGoode’s Family Patterns\n= other parts of the world would embrace the Western model of the family with the spread of industrialization\nproven wrong:\n\ndiversification instead of convergence of family forms\nglobalization instead of industrialization\nimportant role of women (male breadwinning)\n\nright:\n\ndecline in patriarchy, loosening of extended kinship tues\nspread of Western ideologies related to couple autonomy, companionship and romantic love\n\nSummary:",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#standardization",
+    "href": "fertility.html#standardization",
+    "title": "Fertility and Family",
+    "section": "Standardization",
+    "text": "Standardization\n\nDivorce Rates\n\\[\nDR_x = \\frac{\\text{Divorces}}{\\text{Married women}} * 1000\n\\]\n-&gt; needs to be standardized by age for comparison\n\\[\nDR = \\sum_a{p_a * d_a}\n\\]\n\\(d_a\\) = age-specific divorce rates in age group a\n\\(p_a\\) = proportion of married women in age group a\n\n\nWhy standardize?\n\nallows comparison between populations with different structure and incidence rates, not always age\nDirect standardization with common stanrd: understnad underlying change in propensity to live the event\n\n\n\nWhen standardize?\n\ndemographic measures: variation over time/between populations in strucutre component\nproduct of two elements",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#fertility-after-1960s",
+    "href": "fertility.html#fertility-after-1960s",
+    "title": "Fertility and Family",
+    "section": "Fertility after 1960s",
+    "text": "Fertility after 1960s\n\nvery low fertility\npostponement of the birht of the first child\ndecrease in nuptiality\nincrease in age at first marriage\nincrease in divorce\nincrease in cohabitation/fertility outside of marriage",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#second-demographic-transition",
+    "href": "fertility.html#second-demographic-transition",
+    "title": "Fertility and Family",
+    "section": "Second Demographic Transition",
+    "text": "Second Demographic Transition\n\nSpread of post-modern values\n\nspread of individualistic life stlye orientations\nprioritization of higher order needs\nfamily commiments hinder individual accomplishment\nerodes traditional view of family\n\nChange:\n\nliving arrangements other than marriage\ndisconnection between marriage and procreation\nsustained sub-replacement fertility\n\n\n\n\nExample: Unmarried Cohabitation\n\nspreads among open strata of the population (young, secular, educated)\nstudents\nethno-historical, poor man’s marriage",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#correction-of-the-homework",
+    "href": "fertility.html#correction-of-the-homework",
+    "title": "Fertility and Family",
+    "section": "Correction of the homework",
+    "text": "Correction of the homework\n\nGFR only women of reproductive age rate in the denominator\ndoes not account for age structure -&gt; standardization\n\\(GFR = \\sum_{a}{p_a * b_a}\\)\nTwo types of standardization\n\ncan use average population or average rate for standardization -&gt; see excel file of HW 5.",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#recent-family-trends",
+    "href": "fertility.html#recent-family-trends",
+    "title": "Fertility and Family",
+    "section": "Recent Family Trends",
+    "text": "Recent Family Trends\n\nStates and Transitions\n\n???? Diagram Marriage\nrelevant to family/not relevant to family",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#changes-in-fertility-since-the-1970s",
+    "href": "fertility.html#changes-in-fertility-since-the-1970s",
+    "title": "Fertility and Family",
+    "section": "Changes in fertility since the 1970s",
+    "text": "Changes in fertility since the 1970s\n\nExample: Change in Divorce\n\nDivorce Rates\n\nEurope: increase until mid-2000s, then stabilized\nLatin America: depends on country, limited levels\nMENA: high divorce levels in the past, dropped at the end of 20th century -&gt; many arranged marriages, relationship now less hierarchical\n\n\n\nEducational Gradient\n\n1970s - 1990s (start of SDT) : larger separation risks among highly educated\nrecently gradient weakened and in some countries lower educated largest divorce rates\n-&gt; consider unmarried union dissolution, less people married, more people cohabiting -&gt; leave before marriage\nthose who reach marriage are more stable\n\n\n\nDivorces per 1000 women, US\n\n\ndecrease of divorce rate at earlier ages, increase at later ages\nwhen controlling for #marriages and age structure =&gt; increasing divorce rates\nbecause of shift to the right -&gt; appears to be stabilizing\nmarried later =&gt; divorced later\n\n\nred, nuptiality -&gt; less people getting married, less risk of divorce\nDecrease in divorce risk -&gt; due to later marriage, unmarried cohabiting\nSelection effect: e.g: being religious (less likely to divorce, but more likely to marry)\nIndicators:\n\nCrude divorce rate\nDivorce rate of married women\nDivorce by duration of marriage\n\n\n\n\nBirths outside of Marriage\n\nhuge increase in the 1980s in France\ndue to secularization\nfirst spreading in the cities -&gt; first to secularize\nremains low in religious area\n\n\nMean age at childbirth\n\npostmaterialism = developed higher order needs\nhigh postmaterialism =&gt; first child later",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#criticism-of-sdt",
+    "href": "fertility.html#criticism-of-sdt",
+    "title": "Fertility and Family",
+    "section": "Criticism of SDT",
+    "text": "Criticism of SDT\n\nTheory of Gender revolution\n\ninstead of declining -&gt; increasing fertility rates\nin SDT: not much space for place of women in society\nmore importance to change in gender relations\nmore children when men/women are equal -&gt; men contributing to household, women able to rely on men\n2 stage process:\n\nentry of women in labour market -&gt; fertility decline\nincreased involvement of men in household -&gt; re-increase of fertility\n\n\n\n\nDevelopmental Paradigm\n\nreliance on cross-sectional data\nforcing multidimensional observations into linear narrative -&gt; reading data from afterwards perspective -&gt; bias\nweak empirical underpinnings (counter-evidence)\ndevelopmental approach -&gt; expects all countries follow same path (as Europe)\nimportant regional variation\nethnocentric bias, descriptions based on Western societies\n\n\n\nNew Home Economics\n\ninterest marriage is explained by sexual division of task and complementarity between spouses\nentry of women into job market -&gt; increase in divorces\npessimistic vision on the future of marriage\n\n\n\nGlobalization Theory\n\nstructural changes worldwide due to globalization\nhigh level of structural uncertainty\njob market uncertainty -&gt; young adults forgo long-term binding commitments (marriage, parenthood) -&gt; less trustful\n\n\n\nPattern of Disadvantage\n\nincrease in non-marital births\nAccording to SDT: happening among highly-educated people first, then spread\nPoD: happening among poorest people, observed in Russia, US\n\npeople feel that they do not have the means to marry -&gt; have children unmarried\nunmarried cohabitation out of economic necessity\nweakened by not getting married -&gt; not protected\nhaving children is important aspect of integration/recognition in society, 2000s\n\n\n\nEducational Patterns in Cohabitation\n\nEurope: clear upatake among highly educated -&gt; SDT\nNorth America: higher levels in disadvantaged strata -&gt; Pattern of Disadvantage\nLatin America: diverse\nAsia: very rare, Japan after crisis: Pattern of disadvantage, China: SDT\nAfrica: rise, SDT or Pattern of disadvantage\n\n\n\n\nChange in Expectations\n\nDeinstitutionalization of marriage\n\nmarriage has weakened in Europe and US\nalternative acceptable and more prevalent\nchanges in roles\n\nGender egalitarisnism\n\ngaining more dominant normative status\nwomen work -&gt; men in household -&gt; still inequalities\nmore union stabilty",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#sdt-original-vs.-revised",
+    "href": "fertility.html#sdt-original-vs.-revised",
+    "title": "Fertility and Family",
+    "section": "SDT: Original vs. Revised",
+    "text": "SDT: Original vs. Revised",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#marriage-indicators",
+    "href": "fertility.html#marriage-indicators",
+    "title": "Fertility and Family",
+    "section": "Marriage Indicators",
+    "text": "Marriage Indicators\n\n\n\n\n\n\nDefinition\n\n\n\nDecremental = showing a gradual increase/decrease\n-&gt; denominator adjusted over time to exclude those not longer at risk\ndeath rate is decremental\n\n\n\nNon-Decremental ASFMR\n\\[\n_nASFMR_x = \\frac{\\text{#persons marrying for the first time in age interval}}{\\text{midyear pop. aged x, x+n}}\n* 1000\\]\n\n\nDecremental ASFMR\n\\[\n_nm_x = \\frac{\\text{#persons marrying for the first time in age interval}}{\\text{midyear pop. never married aged x, x+n}}\n* 1000\\]\n\n\nPeriod First Marriage Indicators\n\nNon-decremental ASFMR\nPeriod total first marriage rate\n\\[\nPTFMR = \\sum_{x = 15}^{max}{\\frac{_nASFMR_x}{1000}}\n\\]\nPeriod mean age at first marriage\n\\[\nMAFM = \\sum_{x = 15}^{max-n}{\\frac{(x + \\frac{n}{2}) * _nASFMR_x}{\\sum_{x = 15}^{max-n}{_nASFMR_x}}}\n\\]\nCurrent measure, but sensitive to changes in timing in marraige and not a real cohort\nmean age is skewed when calculated in age groups",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#less-visible-family-forms",
+    "href": "fertility.html#less-visible-family-forms",
+    "title": "Fertility and Family",
+    "section": "Less visible family forms",
+    "text": "Less visible family forms\n\nliving apart together: people in couple do not live together\nliving together apart: after separation, not enough money to move out\nsame sex marriage and families",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#correction-of-the-homework-1",
+    "href": "fertility.html#correction-of-the-homework-1",
+    "title": "Fertility and Family",
+    "section": "Correction of the homework",
+    "text": "Correction of the homework\n\nmany marriages abroad -&gt; not included in the data\nmarriage order plays a role, number of remarriages",
+    "crumbs": [
+      "Fertility and Family"
+    ]
+  },
+  {
+    "objectID": "fertility.html#sexual-and-reproductive-health",
+    "href": "fertility.html#sexual-and-reproductive-health",
+    "title": "Fertility and Family",
+    "section": "Sexual and Reproductive Health",
+    "text": "Sexual and Reproductive Health\n\nWHO Reproductive health Strategy\n\nimproving health and wellbeing\nfamily planning\neliminating unsafe abortion\n????\n\nDefinition of sexual and reproductive health\n\n\nUnintended Pregnancy\n\\(\\text{conventional unintended pregnancy rate} = \\frac{\\text{pregnancies conceived when the woman did not want to become pregnant}}{\\text{women aged 15-49, married in a union}}\\)\n\ntrying to measure women’s success in preventing pregnancies when they desire\nright of women to sucessfully exercise the right to freely decide the number of children they have and the spacing of their children\ndoes not include (wanted) pregnancies outside of marriage\ndenominator includes women that want to become pregnant\n\n\\(UUPR = \\frac{\\#\\text{unintended pregrancies}}{}\\)\n????\n\nuse rates of unintended pregnancies to evalute family planning programmes\nwhen adjusting the denominator -&gt; regional differences are much more subtle\n\n\n\nAbortion\nNordic countries broadened the access to abortion in the 1970s -&gt; increase afterwards, then reducing to original level\n\nhigh income countries: higher abortion rates when it is restricted\nEurope: abortion rates decreased, Easter European countries used abortion as contraception, after 1990 inflow of contraception -&gt; less abortion\n25% of pregnancies ended in abortion\n\n\nUnsafe Abortion\n???\n\nestimated 45% of abortions are unsafe\nof those 1/3 in the least safe conditions -&gt; untrained persons using dangerous methods\n4.7% to 13.2% of maternal deaths can be attributed to unsafe abortion\nrisk of dying is highest in Africa\n\n\n\n\nFamily Planning\n\nfour types of demands\nreproducitve autonomy\n????\n\n\nCriticisms of Terminology used in Family Planning\n\nmeasurement often categorizes family planing as binary\n\nover-simplistic and inaccurate measure of pregnancy prevention desires\n\nneed for pregnancy prevention is conflated with the need for contraception\n\nprolonged abstinence and breastfeeding are categorised as having unmet need for contraception\n\nassumption that everyone who is using contraception has met demand for family planning\n\nnot all contraception users are using them for family planning\nmight use contraception despite wanting to become pregnant\nfails to capture those dissatisfied with their contraceptive method\n\n\n\n\nLink between Contraception and FP\n\nboth often defined in a binary\n\nunmet needs/met needs\nwants/does not want, want now/later\n\n\n\n\n\nContraception\n\nDefining need for contraception\n\nunmet need does not measure whether a woman wants to use contraceptive\nrefers to sexually active women\nassumes that all women that use a contraceptive method have their needs met\n\n\n\nDiscontinuation of Contraception\n\nreported failure\ndesire for pregnancy\n??????\n\nquite high probabilities (except IUD) for discontinuation\n\n\n\nFemale Sterilization in India\nLowest Rates: Muslim women, poorest regions\nHighest Rates: middle wealth, Hindu women of disadvantaged caste group, caesarean births, higher rates of health insurance\nhigh education correlates with lower rates\n\nMacro Explanations\n\ngovernment intervention and FP\n“Emergency Period”\n\n4.3 million sterilizations in 12 months\nextensive violations of human rights\n\nCoercive methods\n\nsterilization camps\nincentives for sterilization\npressures from health personnel\n\nlong term Consequences\n\nregret among mothers, if later child is lost\ncomplications and side effects\n\n37.9% of women of reproductive age are sterilized\nmean age is 26\n\n\n\n\nInequalities in SRH\n\n\nMidterm",
+    "crumbs": [
+      "Fertility and Family"
+    ]
   },
   {
     "objectID": "about.html",
@@ -189,24 +647,43 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "Introduction Lecture",
-    "section": "",
-    "text": "Population = group of individuals, at a given time, in defined geographic area\n\npopulations large enough, that individual behaviour does not affect the analysis\nColeman boat (macro/micro level)\nMeso-level (sub-populations)\n\nStructure of a population = distribution by age, sex, education, etc.\n-> Age pyramid, with multidimensional aspect (education, citizenship)\nAustrian pyramid (left):\n·      e) is the echo of c)/d): less children born -> 25 years later less mothers having children\n·      d) pill bust\n·      c) baby boom\n·      b) 2nd world war\n·      a) Anschluss (German values of having many children -> more babies)\n\n\n\n\n\n\nDemography theories\n\n\n\nDemographic metabolism = process where certain characteristics of the population are carried up the age pyramid Demographic dividend = window of opportunity, large birth cohorts economically active Demographic transition = combination of decreasing fertility and decreasing mortality\n\n\nBaby boom (more births) followed by pill bust (less births) -> contraception was possible\nPure population numbers: Total population, births, deaths, students, working population, pensioners\nDemographic processes: fertility, mortality, migration\n\n\n\n·      \n·      Day of year t is important\n·      Births – Deaths -> natural increase/decrease\n·      In – Out migration -> net migration\n·      Also valid for subpopulations\nBasic Concepts of Demographic Analysis\nThree Riddles:\n·      Mortality in Austria vs Mexico: Austria mainly age-related deaths\n·      Very high beer consumption in Bamberg\n·      Life expectancy decrease since Corona\nOccurrences/exposure rates\nRate = #occurrences/person-years at risk\nCorrespondence principle: numerator-denominator match\nPopulation at risk changes over time -> person-years -> approximated by average population"
-  },
-  {
     "objectID": "mortality.html",
     "href": "mortality.html",
     "title": "Mortality, Health and Ageing",
     "section": "",
-    "text": "??? Lexis diagram\n=> gender gap in LE is primarily due to non-biological factors and caused by high mortality of men.\n\n\n\n\n\nInterventionists: 60% women, 10% men\n\nnever smoking\nnot working/no stressful occupation\nno alcohol\nnormal weight\nmuch fruit/vegetables\n\nActive Bon Vivants: 70% men, 20% women\n\nemployed\nsmoking\noverweight\n\nNihilists: 16% men, 12% women\n\nobese\nno influence on health\nno care of own health\nno sports\n\nFormer Workaholics, 4% men, 8% women\n\nformer stressful occupation\n\n??? survival curves\nKaplan-Meier survival curve -> not so many cases, longitudinal data\ntrends similar, but gaps much larger between interventionists and others\ninterventionists live similarly long\n=> gender gap does not apply to all groups\n\n\n\nMagnitude of sex difference is determined by high mortality of specific male subgroups\nnot all monks live longer, just lower educated ones\nfor higher educated ones it is the same anyway\n-> improvement of lower educated monks responsible for closing the gap in monasteries\nfor nuns there exists a difference between education levels, larger in monasteries than in total population\nsmall proportion of women were working at that time\nnon-working women (total population) had lower mortality than working women\ncomparison of men not biased by proportion of working people -> both groups work\nFor women only nuns work\n(lower educated) nuns working in stressful occupations, nurses, teachers etc.\n\n\n\n\nGender gap in LE is caused by a very complex mechanism of biological factors, lifestyle, and social status"
+    "text": "??? Lexis diagram\n=&gt; gender gap in LE is primarily due to non-biological factors and caused by high mortality of men.\n\n\n\n\n\nInterventionists: 60% women, 10% men\n\nnever smoking\nnot working/no stressful occupation\nno alcohol\nnormal weight\nmuch fruit/vegetables\n\nActive Bon Vivants: 70% men, 20% women\n\nemployed\nsmoking\noverweight\n\nNihilists: 16% men, 12% women\n\nobese\nno influence on health\nno care of own health\nno sports\n\nFormer Workaholics, 4% men, 8% women\n\nformer stressful occupation\n\n??? survival curves\nKaplan-Meier survival curve -&gt; not so many cases, longitudinal data\ntrends similar, but gaps much larger between interventionists and others\ninterventionists live similarly long\n=&gt; gender gap does not apply to all groups\n\n\n\nMagnitude of sex difference is determined by high mortality of specific male subgroups\nnot all monks live longer, just lower educated ones\nfor higher educated ones it is the same anyway\n-&gt; improvement of lower educated monks responsible for closing the gap in monasteries\nfor nuns there exists a difference between education levels, larger in monasteries than in total population\nsmall proportion of women were working at that time\nnon-working women (total population) had lower mortality than working women\ncomparison of men not biased by proportion of working people -&gt; both groups work\nFor women only nuns work\n(lower educated) nuns working in stressful occupations, nurses, teachers etc.\n\n\n\n\nGender gap in LE is caused by a very complex mechanism of biological factors, lifestyle, and social status",
+    "crumbs": [
+      "Mortality, Health and Ageing"
+    ]
   },
   {
-    "objectID": "migration lecture.html",
-    "href": "migration lecture.html",
-    "title": "Migration lecture",
+    "objectID": "mortality.html#cloister-study",
+    "href": "mortality.html#cloister-study",
+    "title": "Mortality, Health and Ageing",
     "section": "",
-    "text": "Individual\n\nimprovement, adaptation\n\nCities, regions, countries\n\nfuture size, needs & characteristics\ndepopulation\nbrain drain/gain\nsize of labour force\nintegration issues\n\nGlobal development\n\ntransfer of manpower and skills\ngreater occupational specialization\nneeded knowledge for global growth\nhigher overall economic productivity\n\n\n\n\n\n\n\nDefinitions:\n\n\n\nClosed population = population without migration flows, only births and deaths\nOpen population = affected by births, deaths, immigration and emigration\nPopulation change = natural increase + net migration\nNet migration = immigration - emigration\n\n\n\n\n\n\nchange in size of population\nmigrants may have different mortality and fertility rates\ndifferent characteristics: age structure, sex ratio, education\n\n\n\n\nA universally accepted definition of a migrant does not exist at international level. (country of birth, citizenship, past addresses, etc.)\n\n\n\n\n\n\nDefinition of Migration according to IOM:\n\n\n\nMigration is the movement of persons away from their place of usual residence, either across an international border or within a state, to a new residence.\n\n\n\n\n\n\n\n\nUN Definition of usual place of residence\n\n\n\nThe place at which the person lives at the time of the census and has been there for some time and intends to stay there for some time.\n\n\nUN recommends a threshold of 12 months when considering place of usual residence.\n\n\n\n\n\n\nDefinition of migration (Yusuf et al. 2014)\n\n\n\nSpatial movement of a person which requires:\n\na change in place\ninvolves crossing political/administrative border\n\n\n\n\n\n\n????\n\n\n\n\n\n\nVoluntary migration\n\n\n\nvoluntary migration = whether the migrant has a choice whether or not to migrate and where to migrate\ne.g: labour, family, students, irregular\n\n\n\n\n\n\n\n\nForced migration\n\n\n\nforced migration = when people are obliged to flee or to leave their homes or places of habitual residence because of a conflict, disaster etc.\ne.g: refugees, asylum seekers displaced persons, environmental migrants, trafficking\n\n\nrefugee = person who fled their country or ????\nasylum seeker = seeking international protection ???\nForms/types of migration\n\nborder: international, internal\nduration: long term, short term\norder: regular irregular displacement (forced)\nreason: economic, political, environmental, family etc.\n\nInternal migrant\n= moves from a residence in one state/province/district etc. across a border\n????\nout-migrant/ in-migrant\ninternational migration ????\nimmigrant/emigration\n\n\n\n\n\n\n???? definitions\n\n\n\n\n\n\n\n\n\nMobility\n\n\n\nmobility = refers to the transitory movements of people in the course of their everyday lives\n\n\nmigration = permanent change of residence\n\n\n\n\n\n\n\n\n\nOrder (IOM, 2021)\n\n\n\nregular = occurs in compliance with laws of the country of origin, transit, and destination\nirregular = movement takes place outside the laws, regulations and international agreements, includes refugees, victims of trafficking unaccompanied migrant children\ndisplacement (forced) = movement of persons have been forced or obliged to flee in order to avoid the effects of armed conflict, situations of generalized violence, human rights violations, natural human-made disasters\n\n\n\n\n\n\neducation\nwork\nfamily\nasylum\n\nSocio-economic migration = movement of people to benefit from greater economic opportunities\nIn 2017 2/3 of international migrants are migrant workers, 70% live in high-income countries\nPolitical migrants = forced to migrate because of (civil) war, state policies which discriminate, opression\nhumanitarian refugees =\nEnvironmental migrant = forced to leave for reasons of sudden or progressive changes in the environment, which affect lives and living conditions\ntrapped popilation =\nfamily reunification\n\n\n\nstocks = #total international migrants living in a country at a particular point in time\nflow ="
+    "text": "??? Lexis diagram\n=&gt; gender gap in LE is primarily due to non-biological factors and caused by high mortality of men.",
+    "crumbs": [
+      "Mortality, Health and Ageing"
+    ]
+  },
+  {
+    "objectID": "mortality.html#gender-differences-in-health-behaviour",
+    "href": "mortality.html#gender-differences-in-health-behaviour",
+    "title": "Mortality, Health and Ageing",
+    "section": "",
+    "text": "Interventionists: 60% women, 10% men\n\nnever smoking\nnot working/no stressful occupation\nno alcohol\nnormal weight\nmuch fruit/vegetables\n\nActive Bon Vivants: 70% men, 20% women\n\nemployed\nsmoking\noverweight\n\nNihilists: 16% men, 12% women\n\nobese\nno influence on health\nno care of own health\nno sports\n\nFormer Workaholics, 4% men, 8% women\n\nformer stressful occupation\n\n??? survival curves\nKaplan-Meier survival curve -&gt; not so many cases, longitudinal data\ntrends similar, but gaps much larger between interventionists and others\ninterventionists live similarly long\n=&gt; gender gap does not apply to all groups\n\n\n\nMagnitude of sex difference is determined by high mortality of specific male subgroups\nnot all monks live longer, just lower educated ones\nfor higher educated ones it is the same anyway\n-&gt; improvement of lower educated monks responsible for closing the gap in monasteries\nfor nuns there exists a difference between education levels, larger in monasteries than in total population\nsmall proportion of women were working at that time\nnon-working women (total population) had lower mortality than working women\ncomparison of men not biased by proportion of working people -&gt; both groups work\nFor women only nuns work\n(lower educated) nuns working in stressful occupations, nurses, teachers etc.",
+    "crumbs": [
+      "Mortality, Health and Ageing"
+    ]
+  },
+  {
+    "objectID": "mortality.html#conclusions",
+    "href": "mortality.html#conclusions",
+    "title": "Mortality, Health and Ageing",
+    "section": "",
+    "text": "Gender gap in LE is caused by a very complex mechanism of biological factors, lifestyle, and social status",
+    "crumbs": [
+      "Mortality, Health and Ageing"
+    ]
   }
 ]
